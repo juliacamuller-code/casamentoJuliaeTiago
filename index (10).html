@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Júlia &amp; Tiago | Casamento</title>
+<meta name="description" content="Confirme presença, veja fotos e a lista de presentes do casamento de Júlia e Tiago.">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Júlia &amp; Tiago | Casamento">
+<meta property="og:description" content="Confirme presença, veja fotos e a lista de presentes do casamento de Júlia e Tiago.">
+<meta property="og:image" content="https://juliacamuller-code.github.io/casamentojulia-tiago/assets/frame-photo.jpeg">
+<meta name="twitter:card" content="summary_large_image">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400&amp;family=Great+Vibes&amp;family=Lato:wght@300;400;700&amp;display=swap" rel="stylesheet">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+<script src="./image-slot.js"></script>
+<meta name="ext-resource-dependency" content="assets/gallery-1.jpeg" data-resource-id="gallery-1">
+<meta name="ext-resource-dependency" content="assets/gallery-2.jpeg" data-resource-id="gallery-2">
+<meta name="ext-resource-dependency" content="assets/gallery-3.jpeg" data-resource-id="gallery-3">
+<meta name="ext-resource-dependency" content="assets/gallery-4.jpeg" data-resource-id="gallery-4">
+<meta name="ext-resource-dependency" content="assets/gallery-5.jpeg" data-resource-id="gallery-5">
+<meta name="ext-resource-dependency" content="assets/gallery-6.jpeg" data-resource-id="gallery-6">
+<meta name="ext-resource-dependency" content="assets/gallery-7.jpeg" data-resource-id="gallery-7">
+<meta name="ext-resource-dependency" content="assets/gallery-8.jpeg" data-resource-id="gallery-8">
+<meta name="ext-resource-dependency" content="assets/frame-photo.jpeg" data-resource-id="frame-photo">
+<meta name="ext-resource-dependency" content="assets/travel-photo-1.webp" data-resource-id="travel-photo-1">
+<meta name="ext-resource-dependency" content="assets/travel-photo-2.webp" data-resource-id="travel-photo-2">
+<meta name="ext-resource-dependency" content="assets/rec-photo-0.webp" data-resource-id="rec-photo-0">
+<meta name="ext-resource-dependency" content="assets/rec-photo-1.webp" data-resource-id="rec-photo-1">
+<meta name="ext-resource-dependency" content="assets/rec-photo-2.webp" data-resource-id="rec-photo-2">
+<meta name="ext-resource-dependency" content="assets/rec-photo-3.webp" data-resource-id="rec-photo-3">
+<meta name="ext-resource-dependency" content="assets/rec-photo-4.webp" data-resource-id="rec-photo-4">
+<meta name="ext-resource-dependency" content="assets/rec-photo-5.webp" data-resource-id="rec-photo-5">
+<meta name="ext-resource-dependency" content="assets/rec-photo-7.webp" data-resource-id="rec-photo-7">
+<meta name="ext-resource-dependency" content=".image-slots.state.json" data-resource-id="image-slots-state">
+<style>
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth;overflow-x:hidden;width:100%}
+  body{margin:0;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;overflow-x:hidden;width:100%}
+  ::selection{background:#4D4B2E;color:#F5F0E8}
+  input,textarea,select,button{font-family:inherit}
+  @keyframes jtfloat{0%,100%{transform:translateY(0)}50%{transform:translateY(-14px)}}
+  @keyframes jtspin{to{transform:rotate(360deg)}}
+  @keyframes pulseGlow{0%,100%{box-shadow:0 4px 14px rgba(77,75,46,.32)}50%{box-shadow:0 4px 22px rgba(77,75,46,.6)}}
+</style>
+</helmet>
+<template id="__bundler_thumbnail" data-bg-color="#4D4B2E">
+<svg viewBox="0 0 1200 800" xmlns="http://www.w3.org/2000/svg">
+<rect width="1200" height="800" fill="#4D4B2E"/>
+<text x="600" y="380" font-family="Georgia,serif" font-size="90" fill="#F5F0E8" text-anchor="middle">J &amp; T</text>
+<text x="600" y="450" font-family="Georgia,serif" font-size="30" letter-spacing="8" fill="#F5F0E8" text-anchor="middle">CASAMENTO</text>
+</svg>
+</template>
+
+<div style="background-color:#F5F0E8;background-image:repeating-linear-gradient(0deg,rgba(175,173,121,.045) 0 1px,transparent 1px 5px),repeating-linear-gradient(90deg,rgba(175,173,121,.045) 0 1px,transparent 1px 5px);color:#2C2C2C;font-family:'Lato',sans-serif;line-height:1.7;overflow-x:hidden;min-height:100vh">
+
+<!-- ============================ SITE PÚBLICO ============================ -->
+<sc-if value="{{ isSite }}" hint-placeholder-val="{{ true }}">
+
+  <!-- NAV -->
+  <nav style="position:sticky;top:0;z-index:40;display:flex;align-items:center;justify-content:space-between;gap:clamp(12px,3vw,28px);padding:12px clamp(18px,5vw,56px);background:rgba(245,240,232,.92);backdrop-filter:blur(14px);border-bottom:1px solid rgba(96,94,57,.22);box-shadow:0 2px 18px rgba(45,44,20,.06)">
+    <a href="#hero" style="font-family:'Great Vibes',cursive;font-size:clamp(22px,5vw,28px);color:#4D4B2E;text-decoration:none;line-height:1;white-space:nowrap">Júlia &amp; Tiago</a>
+
+    <sc-if value="{{ isWide }}" hint-placeholder-val="{{ true }}">
+      <div style="display:flex;align-items:center;gap:clamp(16px,2.6vw,34px);flex-wrap:wrap;justify-content:flex-end">
+        <a href="#historia" style="color:#2C2C2C;text-decoration:none;font-size:12px;letter-spacing:.14em;text-transform:uppercase;padding:4px 0;border-bottom:1px solid transparent" style-hover="border-bottom:1px solid #4D4B2E">História</a>
+        <a href="#casamento" style="color:#2C2C2C;text-decoration:none;font-size:12px;letter-spacing:.14em;text-transform:uppercase;padding:4px 0;border-bottom:1px solid transparent" style-hover="border-bottom:1px solid #4D4B2E">O Casamento</a>
+        <a href="#dicas" style="color:#2C2C2C;text-decoration:none;font-size:12px;letter-spacing:.14em;text-transform:uppercase;padding:4px 0;border-bottom:1px solid transparent" style-hover="border-bottom:1px solid #4D4B2E">Dicas</a>
+        <a href="#galeria" style="color:#2C2C2C;text-decoration:none;font-size:12px;letter-spacing:.14em;text-transform:uppercase;padding:4px 0;border-bottom:1px solid transparent" style-hover="border-bottom:1px solid #4D4B2E">Galeria</a>
+        <div style="display:flex;align-items:center;gap:10px;flex-wrap:wrap">
+          <a href="#rsvp" style="position:relative;display:inline-flex;align-items:center;gap:8px;background:#4D4B2E;color:#F5F0E8;text-decoration:none;padding:11px 22px;border-radius:2px;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;box-shadow:0 4px 14px rgba(77,75,46,.32);white-space:nowrap;animation:pulseGlow 2.4s ease-in-out infinite" style-hover="background:#33321F;box-shadow:0 6px 18px rgba(77,75,46,.4)"><span style="font-size:14px;line-height:1">✓</span>Confirme sua presença</a>
+          <a href="#presentes" style="position:relative;display:inline-flex;align-items:center;gap:8px;background:#4D4B2E;color:#F5F0E8;text-decoration:none;font-size:11.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;border-radius:2px;padding:11px 22px;white-space:nowrap;box-shadow:0 4px 14px rgba(77,75,46,.32);animation:pulseGlow 2.4s ease-in-out infinite .3s" style-hover="background:#33321F;box-shadow:0 6px 18px rgba(77,75,46,.4)">Presentear os noivos</a>
+        </div>
+      </div>
+    </sc-if>
+
+    <sc-if value="{{ isNarrow }}" hint-placeholder-val="{{ false }}">
+      <button onClick="{{ toggleNav }}" aria-label="Abrir menu" style="flex:0 0 auto;width:44px;height:44px;border:none;background:none;cursor:pointer;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:5px;padding:0">
+        <span style="width:24px;height:2px;background:#4D4B2E;display:block;border-radius:1px"></span>
+        <span style="width:24px;height:2px;background:#4D4B2E;display:block;border-radius:1px"></span>
+        <span style="width:24px;height:2px;background:#4D4B2E;display:block;border-radius:1px"></span>
+      </button>
+
+      <sc-if value="{{ showMobileMenu }}" hint-placeholder-val="{{ false }}">
+        <div style="position:absolute;top:100%;left:0;right:0;background:#F5F0E8;border-bottom:1px solid rgba(96,94,57,.22);box-shadow:0 16px 32px rgba(45,44,20,.18);display:flex;flex-direction:column;padding:6px clamp(18px,5vw,56px) 20px">
+          <a href="#historia" onClick="{{ closeNav }}" style="color:#2C2C2C;text-decoration:none;font-size:15px;letter-spacing:.1em;text-transform:uppercase;padding:16px 0;border-bottom:1px solid rgba(96,94,57,.15)">História</a>
+          <a href="#casamento" onClick="{{ closeNav }}" style="color:#2C2C2C;text-decoration:none;font-size:15px;letter-spacing:.1em;text-transform:uppercase;padding:16px 0;border-bottom:1px solid rgba(96,94,57,.15)">O Casamento</a>
+          <a href="#dicas" onClick="{{ closeNav }}" style="color:#2C2C2C;text-decoration:none;font-size:15px;letter-spacing:.1em;text-transform:uppercase;padding:16px 0;border-bottom:1px solid rgba(96,94,57,.15)">Dicas</a>
+          <a href="#galeria" onClick="{{ closeNav }}" style="color:#2C2C2C;text-decoration:none;font-size:15px;letter-spacing:.1em;text-transform:uppercase;padding:16px 0">Galeria</a>
+          <div style="display:flex;flex-direction:column;gap:10px;margin-top:14px">
+            <a href="#rsvp" onClick="{{ closeNav }}" style="display:flex;align-items:center;justify-content:center;gap:8px;background:#4D4B2E;color:#F5F0E8;text-decoration:none;padding:14px 22px;border-radius:2px;font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700"><span style="font-size:14px;line-height:1">✓</span>Confirme sua presença</a>
+            <a href="#presentes" onClick="{{ closeNav }}" style="display:flex;align-items:center;justify-content:center;background:#4D4B2E;color:#F5F0E8;text-decoration:none;font-size:12.5px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;border-radius:2px;padding:14px 22px">Presentear os noivos</a>
+          </div>
+        </div>
+      </sc-if>
+    </sc-if>
+  </nav>
+
+  <!-- HERO -->
+  <header id="hero" style="position:relative;text-align:center;padding:clamp(90px,14vw,160px) 20px clamp(80px,12vw,130px);overflow:hidden;background:#4D4B2E">
+    <img src="assets/venue-aquarela.jpeg" alt="Paisagem de Serra Negra" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:.95">
+    <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(48,47,29,.62),rgba(32,32,19,.82))"></div>
+
+    <div style="position:relative;z-index:1;max-width:820px;margin:0 auto;text-shadow:0 2px 20px rgba(32,32,19,.4)">
+      <p style="letter-spacing:.5em;text-transform:uppercase;font-size:12px;color:#E2E2CF;font-weight:700;margin:0 0 22px">Vamos nos casar</p>
+      <div style="display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:.05em">
+        <h1 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(46px,10.5vw,108px);letter-spacing:.04em;color:#F5F0E8;margin:0;line-height:.92">JÚLIA</h1>
+        <span style="font-family:'Great Vibes',cursive;font-weight:400;font-size:clamp(38px,8vw,84px);color:#D6D4B9;margin:0 .12em;line-height:.92">&amp;</span>
+        <h1 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(46px,10.5vw,108px);letter-spacing:.04em;color:#F5F0E8;margin:0;line-height:.92">TIAGO</h1>
+      </div>
+      <p style="letter-spacing:.42em;text-transform:uppercase;font-size:13px;color:#E2E2CF;margin:20px 0 0;font-weight:600">E NOSSO GRANDE DIA SERÁ EM:</p>
+
+      <div style="display:flex;align-items:center;justify-content:center;gap:18px;margin:26px auto 0;max-width:380px">
+        <span style="flex:1;height:1px;background:rgba(245,240,232,.35)"></span>
+        <span style="font-family:'Cormorant Garamond',serif;font-size:clamp(20px,4vw,30px);letter-spacing:.18em;color:#F5F0E8">17 · 04 · 2027</span>
+        <span style="flex:1;height:1px;background:rgba(245,240,232,.35)"></span>
+      </div>
+      <p style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:clamp(16px,2.4vw,20px);color:#c9d0b8;margin:8px 0 0">Serra Negra · São Paulo</p>
+
+      <!-- COUNTDOWN -->
+      <div style="display:flex;justify-content:center;flex-wrap:wrap;gap:clamp(14px,4vw,40px);margin-top:clamp(34px,5vw,52px)">
+        <div style="min-width:74px">
+          <div ref="{{ setD }}" style="font-family:'Cormorant Garamond',serif;font-size:clamp(38px,6.6vw,62px);font-weight:500;color:#F5F0E8;line-height:1">—</div>
+          <div style="letter-spacing:.24em;text-transform:uppercase;font-size:11px;color:#CDCCAC;margin-top:4px">Dias</div>
+        </div>
+        <div style="min-width:74px">
+          <div ref="{{ setH }}" style="font-family:'Cormorant Garamond',serif;font-size:clamp(38px,6.6vw,62px);font-weight:500;color:#F5F0E8;line-height:1">—</div>
+          <div style="letter-spacing:.24em;text-transform:uppercase;font-size:11px;color:#CDCCAC;margin-top:4px">Horas</div>
+        </div>
+        <div style="min-width:74px">
+          <div ref="{{ setM }}" style="font-family:'Cormorant Garamond',serif;font-size:clamp(38px,6.6vw,62px);font-weight:500;color:#F5F0E8;line-height:1">—</div>
+          <div style="letter-spacing:.24em;text-transform:uppercase;font-size:11px;color:#CDCCAC;margin-top:4px">Minutos</div>
+        </div>
+        <div style="min-width:74px">
+          <div ref="{{ setS }}" style="font-family:'Cormorant Garamond',serif;font-size:clamp(38px,6.6vw,62px);font-weight:500;color:#F5F0E8;line-height:1">—</div>
+          <div style="letter-spacing:.24em;text-transform:uppercase;font-size:11px;color:#CDCCAC;margin-top:4px">Segundos</div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- FOTO EM MOLDURA + DATA -->
+  <section style="position:relative;overflow:hidden">
+    <div style="position:absolute;inset:0;background-image:repeating-linear-gradient(90deg,#EDE7D9 0 26px,#DFD5BC 26px 52px)"></div>
+    <div style="position:relative;z-index:1;max-width:900px;margin:0 auto;padding:clamp(48px,8vw,84px) clamp(20px,5vw,32px);display:flex;flex-wrap:wrap;justify-content:center;gap:clamp(30px,5vw,56px);align-items:center">
+    <div style="width:min(300px,70vw);flex:0 0 auto;border:1px solid #605E39;padding:10px;aspect-ratio:4/5;margin:0 auto;background:#F5F0E8;box-shadow:0 18px 40px rgba(0,0,0,.1)">
+      <div style="border:1px solid #605E39;height:100%;position:relative;overflow:hidden">
+        <image-slot id="frame-photo" src="assets/frame-photo.jpeg" shape="rect" placeholder="Foto do casal" style="width:100%;height:100%"></image-slot>
+      </div>
+    </div>
+    <div style="width:min(340px,80vw);flex:0 0 auto;text-align:center">
+      <p style="font-family:'Great Vibes',cursive;font-size:clamp(30px,5vw,42px);color:#605E39;margin:0 0 4px;line-height:1">17 de abril</p>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:600;letter-spacing:.1em;text-transform:uppercase;font-size:clamp(22px,3.2vw,30px);margin:0 0 10px;color:#2C2C2C">Casa Di Pietra</h2>
+      <div style="width:52px;height:1px;background:#AFAD79;margin:0 auto 12px"></div>
+      <p style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:clamp(15px,2vw,18px);color:#666;margin:0">Serra Negra, São Paulo</p>
+    </div>
+    </div>
+  </section>
+
+  <!-- NOSSA HISTÓRIA -->
+  <section id="historia" data-rev="historia" style="scroll-margin-top:78px;max-width:920px;margin:0 auto;padding:clamp(56px,9vw,110px) clamp(20px,5vw,32px);opacity:0;transform:translateY(26px);transition:opacity 1s cubic-bezier(.16,.84,.32,1),transform 1s cubic-bezier(.16,.84,.32,1)">
+    <div style="text-align:center;margin-bottom:clamp(40px,6vw,64px)">
+      <p style="letter-spacing:.36em;text-transform:uppercase;font-size:13px;color:#8D8B55;font-weight:700;margin:0 0 6px">O começo de tudo</p>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(34px,6vw,56px);margin:0;color:#2C2C2C">Nossa História</h2>
+      <div style="display:flex;justify-content:center;margin-top:18px">
+        <svg width="240" height="34" viewBox="0 0 240 34" fill="none" style="display:block">
+          <path d="M16 17 H102" stroke="#AFAD79" stroke-width="1"></path><path d="M224 17 H138" stroke="#AFAD79" stroke-width="1"></path>
+          <g fill="#8D8B55"><ellipse cx="112" cy="9" rx="9" ry="4" transform="rotate(-32 112 9)"></ellipse><ellipse cx="128" cy="9" rx="9" ry="4" transform="rotate(32 128 9)"></ellipse><ellipse cx="120" cy="5" rx="6" ry="3"></ellipse></g>
+          <circle cx="120" cy="17" r="3.4" fill="#605E39"></circle>
+          <path d="M107 24 q13 9 26 0" stroke="#8D8B55" stroke-width="1.2" fill="none"></path>
+        </svg>
+      </div>
+    </div>
+
+    <div style="position:relative;max-width:700px;margin:0 auto">
+      <div style="position:absolute;left:26px;top:18px;bottom:18px;width:1px;background:linear-gradient(180deg,rgba(141,139,85,.6),rgba(175,173,121,.4))"></div>
+      <div data-stagger-group="" style="display:flex;flex-direction:column;gap:clamp(44px,6vw,64px)">
+        <!-- cap 1 -->
+        <article style="position:relative;display:flex;gap:clamp(18px,3vw,26px);align-items:flex-start">
+          <div style="flex:0 0 auto;width:54px;height:54px;border-radius:50%;border:1px solid #8D8B55;background:#F5F0E8;display:flex;align-items:center;justify-content:center;z-index:1">
+            
+          <svg width="26" height="26" viewBox="0 0 26 26" fill="none"><path d="M13 22 C5 16 3 11 6 8 C8.5 5.5 11.5 6.5 13 9 C14.5 6.5 17.5 5.5 20 8 C23 11 21 16 13 22Z" fill="#605E39"></path></svg></div>
+          <div style="flex:1;padding-top:3px">
+            <p style="letter-spacing:.26em;text-transform:uppercase;font-size:11px;color:#AFAD79;font-weight:700;margin:0 0 4px">Janeiro de 2023</p>
+            <h3 style="font-family:'Cormorant Garamond',serif;font-size:clamp(24px,3.6vw,32px);font-weight:600;margin:0 0 10px;color:#605E39">O Primeiro Encontro</h3>
+            <div style="margin:0;font-size:clamp(15.5px,1.7vw,17.5px);color:#3a3a3a"><p data-start="334" data-end="655" class="PDq2pG_selectionAnchorContainer" style="text-align: justify">Nos conhecemos no dia 4 de janeiro de 2023, em uma festa em Renascença. Naquela noite, antes mesmo de conversarmos, o Tiago viu a Júlia pela primeira vez enquanto ela comia um pastel, distraída e alheia a tudo ao redor. Foi uma cena comum, mas tão espontânea que acabou se tornando a primeira lembrança da nossa história.<br><span style="font-size: clamp(15.5px, 1.7vw, 17.5px);">Depois daquele primeiro encontro, nos aproximamos, mas a vida ainda nos levaria por caminhos diferentes. Durante mais de um ano, seguimos separados, vivendo experiências e amadurecendo individualmente. Não sabíamos se voltaríamos a nos encontrar, mas aquela história, de alguma forma, ainda não havia terminado.</span></p></div>
+          </div>
+        </article>
+        <!-- cap 2 -->
+        <article style="position:relative;display:flex;gap:clamp(18px,3vw,26px);align-items:flex-start">
+          <div style="flex:0 0 auto;width:54px;height:54px;border-radius:50%;border:1px solid #8D8B55;background:#F5F0E8;display:flex;align-items:center;justify-content:center;z-index:1">
+            
+          <svg width="26" height="26" viewBox="0 0 26 26" fill="none"><path d="M13 22 C5 16 3 11 6 8 C8.5 5.5 11.5 6.5 13 9 C14.5 6.5 17.5 5.5 20 8 C23 11 21 16 13 22Z" fill="#605E39"></path></svg></div>
+          <div style="flex:1;padding-top:3px">
+            <p style="letter-spacing:.26em;text-transform:uppercase;font-size:11px;color:#AFAD79;font-weight:700;margin:0 0 4px">Fevereiro de 2024</p>
+            <h3 style="font-family:'Cormorant Garamond',serif;font-size:clamp(24px,3.6vw,32px);font-weight:600;margin:0 0 10px;color:#605E39">O Reencontro</h3>
+            <div style="margin:0;font-size:clamp(15.5px,1.7vw,17.5px);color:#3a3a3a"><p data-start="1010" data-end="1228" class="PDq2pG_selectionAnchorContainer" style="text-align: justify">Mais de um ano depois, quando a Júlia voltou do intercâmbio, nossos caminhos se cruzaram novamente. O Tiago a convidou para jantar e, naquela noite, tivemos uma daquelas conversas que fazem o tempo passar sem perceber.<br><span style="font-size: clamp(15.5px, 1.7vw, 17.5px);">Falamos sobre a vida, a fé, os nossos princípios e os sonhos para o futuro. Foi quando descobrimos que, mesmo durante o tempo em que estivemos distantes, havíamos pedido a Deus coisas muito parecidas: encontrar alguém com quem pudéssemos compartilhar a vida e formar uma família.<br></span><span style="font-size: clamp(15.5px, 1.7vw, 17.5px);">Depois daquele jantar, não nos afastamos mais. Vieram as conversas, os encontros, as viagens e os planos. No dia 14 de junho de 2024, começamos oficialmente o nosso namoro e, pouco a pouco, passamos a dividir também a rotina, as decisões e os desafios.<br></span><span style="font-size: clamp(15.5px, 1.7vw, 17.5px);">Foi na vida real, muito além dos momentos perfeitos, que descobrimos a força da nossa parceria. Somos diferentes em muitos aspectos, mas encontramos justamente nessas diferenças o nosso equilíbrio. Um completa o que falta no outro e, juntos, aprendemos todos os dias uma maneira muito nossa de amar.</span></p></div>
+          </div>
+        </article>
+        <!-- cap 3 -->
+        <article style="position:relative;display:flex;gap:clamp(18px,3vw,26px);align-items:flex-start">
+          <div style="flex:0 0 auto;width:54px;height:54px;border-radius:50%;border:1px solid #8D8B55;background:#F5F0E8;display:flex;align-items:center;justify-content:center;z-index:1">
+            <svg width="26" height="26" viewBox="0 0 26 26" fill="none"><path d="M13 22 C5 16 3 11 6 8 C8.5 5.5 11.5 6.5 13 9 C14.5 6.5 17.5 5.5 20 8 C23 11 21 16 13 22Z" fill="#605E39"></path></svg>
+          </div>
+          <div style="flex:1;padding-top:3px">
+            <p style="letter-spacing:.26em;text-transform:uppercase;font-size:11px;color:#AFAD79;font-weight:700;margin:0 0 4px">Agosto de 2025</p>
+            <h3 style="font-family:'Cormorant Garamond',serif;font-size:clamp(24px,3.6vw,32px);font-weight:600;margin:0 0 10px;color:#605E39">O Pedido</h3>
+            <div style="margin:0;font-size:clamp(15.5px,1.7vw,17.5px);color:#3a3a3a"><p data-start="2099" data-end="2365" class="PDq2pG_selectionAnchorContainer" style="text-align: justify">No dia 23 de agosto de 2025, durante uma viagem pela Tailândia, vivemos um dos momentos mais especiais da nossa história. Diante das águas azuis de Phi Phi, o Tiago se ajoelhou e pediu a Júlia em casamento.<br><span style="font-size: clamp(15.5px, 1.7vw, 17.5px);">Naquele cenário tão distante de casa, tudo pareceu encontrar o seu lugar. O “sim” apenas confirmou uma certeza que já existia entre nós: queríamos continuar dividindo a vida, realizar nossos sonhos e construir a nossa família.<br></span><span style="font-size: clamp(15.5px, 1.7vw, 17.5px);">Hoje, quando olhamos para trás, entendemos que nada aconteceu antes ou depois da hora. Deus permitiu que nos conhecêssemos, conduziu nossos caminhos durante o tempo em que estivemos separados e nos fez reencontrar quando estávamos prontos para viver esse amor.<br></span><span style="font-size: clamp(15.5px, 1.7vw, 17.5px);">Agora, chegamos ao capítulo que tanto sonhamos. E poder compartilhá-lo com as pessoas que amamos torna tudo ainda mais especial.</span></p></div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- O CASAMENTO -->
+  <section id="casamento" data-rev="casamento" style="position:relative;overflow:hidden;scroll-margin-top:78px;background:#605E39;color:#F5F0E8;padding:clamp(56px,9vw,110px) clamp(20px,5vw,32px);opacity:0;transform:translateY(26px);transition:opacity 1s cubic-bezier(.16,.84,.32,1),transform 1s cubic-bezier(.16,.84,.32,1)">
+    <img src="assets/venue-aquarela.jpeg" alt="Aquarela da paisagem de Serra Negra" style="position:absolute;inset:0;width:100%;height:100%;object-fit:cover;opacity:1">
+    <div style="position:absolute;inset:0;background:linear-gradient(180deg,rgba(77,75,46,.22),rgba(77,75,46,.5))"></div>
+    <div style="position:relative;z-index:1;max-width:1000px;margin:0 auto;text-align:center;text-shadow:0 1px 16px rgba(48,47,29,.55)">
+      <p style="letter-spacing:.36em;text-transform:uppercase;font-size:13px;color:#DDDCC6;font-weight:700;margin:0 0 6px">Save the date</p>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(34px,6vw,56px);margin:0 0 6px">O Casamento</h2>
+      <p style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:clamp(18px,2.6vw,24px);color:#ECECDF;margin:0 0 clamp(36px,5vw,52px)">Será uma alegria ter você conosco neste dia.</p>
+
+      <div data-stagger-group="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:clamp(16px,2.6vw,26px)">
+        <div style="background:rgba(45,44,27,.5);border:1px solid rgba(245,240,232,.3);border-radius:3px;padding:clamp(26px,3.5vw,38px) 22px;backdrop-filter:blur(2px)">
+          <svg width="34" height="34" viewBox="0 0 34 34" fill="none" style="margin-bottom:14px"><rect x="5" y="7" width="24" height="22" rx="2" stroke="#F5F0E8" stroke-width="1.4"></rect><path d="M5 13 H29 M11 4 V9 M23 4 V9" stroke="#F5F0E8" stroke-width="1.4"></path><circle cx="17" cy="21" r="2.2" fill="#DDDCC6"></circle></svg>
+          <h3 style="font-family:'Cormorant Garamond',serif;font-size:22px;margin:0 0 4px;font-weight:600">Quando</h3>
+          <p style="margin:0;color:#ECECDF;font-size:15.5px">Sábado, 17 de abril de 2027</p>
+          <p style="margin:2px 0 0;color:#DDDCC6;font-size:14px">ás 15h</p>
+        </div>
+        <div style="background:rgba(45,44,27,.5);border:1px solid rgba(245,240,232,.3);border-radius:3px;padding:clamp(26px,3.5vw,38px) 22px;backdrop-filter:blur(2px)">
+          <svg width="34" height="34" viewBox="0 0 34 34" fill="none" style="margin-bottom:14px"><path d="M17 30 C9 21 6 16 6 12 a11 11 0 0 1 22 0 c0 4 -3 9 -11 18Z" stroke="#F5F0E8" stroke-width="1.4" fill="none"></path><circle cx="17" cy="12" r="3.6" stroke="#DDDCC6" stroke-width="1.4"></circle></svg>
+          <h3 style="font-family:'Cormorant Garamond',serif;font-size:22px;margin:0 0 4px;font-weight:600">Onde</h3>
+          <p style="margin:0;color:#ECECDF;font-size:15.5px">Casa Di Pietra - Villa Toscana<br>Serra Negra-SP</p>
+          <p style="margin:2px 0 0;color:#DDDCC6;font-size:14px"><br></p>
+        </div>
+        <div style="background:rgba(45,44,27,.5);border:1px solid rgba(245,240,232,.3);border-radius:3px;padding:clamp(26px,3.5vw,38px) 22px;backdrop-filter:blur(2px)">
+          <svg width="34" height="34" viewBox="0 0 34 34" fill="none" style="margin-bottom:14px"><circle cx="17" cy="17" r="12" stroke="#F5F0E8" stroke-width="1.4"></circle><path d="M17 9 V17 L22 20" stroke="#DDDCC6" stroke-width="1.6" stroke-linecap="round"></path></svg>
+          <h3 style="font-family:'Cormorant Garamond',serif;font-size:22px;margin:0 0 4px;font-weight:600">Endereço</h3>
+          <p style="margin:0;color:#ECECDF;font-size:15.5px">Estrada Municipal, km 5 — Portal da Serra</p>
+          <p style="margin:2px 0 0;color:#DDDCC6;font-size:14px">Serra Negra – SP · CEP 13930-000</p>
+        </div>
+      </div>
+      <a href="https://www.google.com/maps/search/?api=1&amp;query=Casa+Di+Pietra+Serra+Negra+SP" target="_blank" rel="noopener" style="display:inline-block;margin-top:clamp(30px,4vw,44px);background:#F5F0E8;color:#605E39;text-decoration:none;padding:14px 32px;border-radius:2px;font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700" style-hover="background:#fff">Ver no mapa</a>
+    </div>
+  </section>
+
+  <!-- DICAS / VIAGEM -->
+  
+
+  <!-- GALERIA -->
+  <section id="dicas" data-rev="dicas" style="scroll-margin-top:78px;opacity:0;transform:translateY(26px);transition:opacity 1s cubic-bezier(.16,.84,.32,1),transform 1s cubic-bezier(.16,.84,.32,1)">
+    <div style="max-width:1100px;margin:0 auto;padding:clamp(56px,9vw,110px) clamp(20px,5vw,32px) clamp(40px,6vw,60px)">
+      <div style="text-align:center">
+        <p style="letter-spacing:.36em;text-transform:uppercase;font-size:13px;color:#8D8B55;font-weight:700;margin:0 0 6px">Para você se organizar</p>
+        <h2 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(34px,6vw,56px);margin:0;color:#2C2C2C">Dicas para sua viagem</h2>
+        <p style="max-width:620px;margin:14px auto 0;color:#555;font-size:clamp(15px,1.8vw,17px)">Serra Negra é um cantinho encantador do Circuito das Águas Paulista. Reunimos algumas sugestões para a sua estadia ser tão especial quanto o nosso dia.</p>
+      </div>
+    </div>
+
+    <!-- Como chegar -->
+    <div style="background-image:repeating-linear-gradient(90deg,#4D4B2E 0 26px,#595836 26px 52px)">
+      <div style="max-width:1100px;margin:0 auto;display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr))">
+        <div style="padding:clamp(40px,6vw,64px) clamp(24px,4vw,44px)">
+          <p style="letter-spacing:.32em;text-transform:uppercase;font-size:11.5px;color:#CDCCAC;font-weight:700;margin:0 0 6px">Voos e locomoção</p>
+          <div style="font-family:'Great Vibes',cursive;font-size:clamp(38px,5vw,50px);color:#F5F0E8;line-height:1;margin:0 0 22px">Como chegar</div>
+          <div style="display:flex;flex-direction:column">
+            <div style="display:flex;gap:14px;padding:16px 0;border-top:1px solid rgba(245,240,232,.18)">
+              <svg width="28" height="28" viewBox="0 0 32 32" fill="none" style="flex:0 0 auto;margin-top:2px"><path d="M5 21 V16 L8 10 H24 L27 16 V21" stroke="#DDDCC6" stroke-width="1.5" fill="none" stroke-linejoin="round"></path><path d="M5 21 H27 M9 21 V24 M23 21 V24" stroke="#DDDCC6" stroke-width="1.5"></path><circle cx="10" cy="17" r="1.6" fill="#CDCCAC"></circle><circle cx="22" cy="17" r="1.6" fill="#CDCCAC"></circle></svg>
+              <div>
+                <h4 style="font-family:'Cormorant Garamond',serif;font-size:19px;font-weight:600;margin:0 0 4px;color:#F5F0E8">Vá de carro</h4>
+                <p style="margin:0;color:#DDDCC6;font-size:14px">A nossa principal sugestão é vir de <strong style="font-weight:700;color:#F5F0E8">carro</strong>. Você terá liberdade para explorar Serra Negra e o Circuito das Águas no seu próprio ritmo.</p>
+              </div>
+            </div>
+            <div style="display:flex;gap:14px;padding:16px 0;border-top:1px solid rgba(245,240,232,.18)">
+              <svg width="28" height="28" viewBox="0 0 32 32" fill="none" style="flex:0 0 auto;margin-top:2px"><path d="M28 18 L4 22 L7 16 L4 10 L28 14 Z" stroke="#DDDCC6" stroke-width="1.5" fill="none" stroke-linejoin="round"></path><path d="M12 15 L12 6 L15 6 L18 14" stroke="#CDCCAC" stroke-width="1.5" fill="none" stroke-linejoin="round"></path></svg>
+              <div>
+                <h4 style="font-family:'Cormorant Garamond',serif;font-size:19px;font-weight:600;margin:0 0 4px;color:#F5F0E8">Voo até Campinas</h4>
+                <p style="margin:0;color:#DDDCC6;font-size:14px">O aeroporto de <strong style="font-weight:700;color:#F5F0E8">Viracopos (Campinas · VCP)</strong> é o mais próximo — cerca de 1h30 até Serra Negra.</p>
+              </div>
+            </div>
+            <div style="display:flex;gap:14px;padding:16px 0;border-top:1px solid rgba(245,240,232,.18);border-bottom:1px solid rgba(245,240,232,.18)">
+              <svg width="28" height="28" viewBox="0 0 32 32" fill="none" style="flex:0 0 auto;margin-top:2px"><rect x="4" y="9" width="24" height="12" rx="2" stroke="#DDDCC6" stroke-width="1.5"></rect><path d="M4 21 V24 M28 21 V24 M11 9 V21 M18 9 V21" stroke="#DDDCC6" stroke-width="1.5"></path><circle cx="8" cy="15" r="1.4" fill="#CDCCAC"></circle></svg>
+              <div>
+                <h4 style="font-family:'Cormorant Garamond',serif;font-size:19px;font-weight:600;margin:0 0 4px;color:#F5F0E8">Van dos noivos</h4>
+                <p style="margin:0;color:#DDDCC6;font-size:14px">No dia do casamento, disponibilizaremos uma <strong style="font-weight:700;color:#F5F0E8">van</strong> para o deslocamento dos hotéis sugeridos até a Casa Di Pietra.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div style="display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:16px;padding:clamp(30px,5vw,50px) clamp(20px,4vw,30px);min-height:240px;overflow:hidden">
+          <div style="width:min(40%,170px);aspect-ratio:4/5;background:#F5F0E8;padding:8px 8px 20px;box-shadow:0 14px 30px rgba(0,0,0,.3);transform:rotate(-6deg);position:relative;z-index:1">
+            <image-slot id="travel-photo-1" src="assets/travel-photo-1.webp" shape="rect" placeholder="Foto da viagem" style="width:100%;height:100%"></image-slot>
+          </div>
+          <div style="width:min(40%,170px);aspect-ratio:4/5;background:#F5F0E8;padding:8px 8px 20px;box-shadow:0 14px 30px rgba(0,0,0,.3);transform:rotate(5deg);position:relative;z-index:2">
+            <image-slot id="travel-photo-2" src="assets/travel-photo-2.webp" shape="rect" placeholder="Foto do trajeto" style="width:100%;height:100%"></image-slot>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Onde ficar -->
+    <div style="background-image:repeating-linear-gradient(90deg,#EDE7D9 0 26px,#DFD5BC 26px 52px)">
+      <div style="max-width:1100px;margin:0 auto;padding:clamp(48px,7vw,72px) clamp(20px,5vw,32px)">
+        <div style="text-align:center;margin-bottom:clamp(26px,4vw,36px)">
+          <div style="font-family:'Great Vibes',cursive;font-size:clamp(34px,4.6vw,46px);color:#605E39;line-height:1">hotéis</div>
+          <p style="letter-spacing:.3em;text-transform:uppercase;font-size:11px;color:#939158;font-weight:700;margin:8px 0 0">Onde ficar em Serra Negra</p>
+        </div>
+        <div style="max-width:640px;margin:0 auto clamp(26px,4vw,36px);text-align:center;background:rgba(77,75,46,.08);border:1px solid rgba(77,75,46,.3);border-radius:2px;padding:16px 22px">
+          <p style="margin:0;color:#4D4B2E;font-size:13.5px;line-height:1.6"><strong>Hospedou-se em um dos hotéis indicados?</strong> Os noivos oferecem uma van exclusiva para levar e trazer os convidados até a Casa Di Pietra no dia do casamento.</p>
+        </div>
+        <div data-stagger-group="" style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,230px),1fr));gap:clamp(14px,2vw,18px)">
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Hotel+Pousada+Shangri-la+Estrada+das+Tabaranas+Km+4+Serra+Negra+SP" target="_blank" rel="noopener" style="display:block;text-decoration:none;text-align:center;background:#F5F0E8;border:1px solid rgba(175,173,121,.4);padding:24px 18px;transition:border-color .2s,transform .2s" style-hover="border-color:#8D8B55;transform:translateY(-2px)">
+            <h4 style="letter-spacing:.06em;text-transform:uppercase;font-size:14.5px;font-weight:700;color:#2C2C2C;margin:0 0 8px">Hotel Pousada Shangri-lá</h4>
+            <div style="width:26px;height:1px;background:#AFAD79;margin:0 auto 10px"></div>
+            <p style="font-style:italic;color:#666;font-size:13.5px;margin:0 0 10px">Charme rural e vista das montanhas.</p>
+            <p style="color:#8D8B55;font-size:11.5px;line-height:1.5;margin:0 0 10px">Estrada das Tabaranas, Km 4 — Bairro das Leais<br>(19) 3892-3765 · (19) 99924-0505</p>
+            <span style="display:inline-block;font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:#4D4B2E;font-weight:700;background:rgba(77,75,46,.12);border:1px solid rgba(77,75,46,.3);border-radius:2px;padding:4px 8px;margin-bottom:10px">Desconto para noivos — avise na reserva que o casamento será na CASA DI PIETRA</span>
+            <br>
+            <span style="font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8D8B55;font-weight:700">Ver no mapa →</span>
+          </a>
+          
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Grand+Resort+Serra+Negra+Rodovia+Serra+Negra+Amparo+Km+2,5" target="_blank" rel="noopener" style="display:block;text-decoration:none;text-align:center;background:#F5F0E8;border:1px solid rgba(175,173,121,.4);padding:24px 18px;transition:border-color .2s,transform .2s" style-hover="border-color:#8D8B55;transform:translateY(-2px)">
+            <h4 style="letter-spacing:.06em;text-transform:uppercase;font-size:14.5px;font-weight:700;color:#2C2C2C;margin:0 0 8px">Grand Resort Serra Negra</h4>
+            <div style="width:26px;height:1px;background:#AFAD79;margin:0 auto 10px"></div>
+            <p style="font-style:italic;color:#666;font-size:13.5px;margin:0 0 10px">Estrutura completa de resort em meio à natureza.</p>
+            <p style="color:#8D8B55;font-size:11.5px;line-height:1.5;margin:0 0 10px">Rod. Serra Negra/Amparo, Km 2,5 — Palmeiras<br>0800-771-1006 · (19) 3892-2000</p>
+            <span style="font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8D8B55;font-weight:700">Ver no mapa →</span>
+          </a>
+          
+          
+          
+          
+          
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Serra+Negra+Palace+Hotel+Rua+Coronel+Pedro+Penteado+157+Serra+Negra+SP" target="_blank" rel="noopener" style="display:block;text-decoration:none;text-align:center;background:#F5F0E8;border:1px solid rgba(175,173,121,.4);padding:24px 18px;transition:border-color .2s,transform .2s" style-hover="border-color:#8D8B55;transform:translateY(-2px)">
+            <h4 style="letter-spacing:.06em;text-transform:uppercase;font-size:14.5px;font-weight:700;color:#2C2C2C;margin:0 0 8px">Serra Negra Palace Hotel</h4>
+            <div style="width:26px;height:1px;background:#AFAD79;margin:0 auto 10px"></div>
+            <p style="font-style:italic;color:#666;font-size:13.5px;margin:0 0 10px">No coração do centro, perto de tudo.</p>
+            <p style="color:#8D8B55;font-size:11.5px;line-height:1.5;margin:0 0 10px">Rua Coronel Pedro Penteado, 157 — Centro<br>(19) 3892-4477</p>
+            <span style="display:inline-block;font-size:9.5px;letter-spacing:.1em;text-transform:uppercase;color:#4D4B2E;font-weight:700;background:rgba(77,75,46,.12);border:1px solid rgba(77,75,46,.3);border-radius:2px;padding:4px 8px;margin-bottom:10px">Desconto para noivos — avise na reserva&nbsp;<span style="letter-spacing: 0.95px;">que o casamento será na CASA DI PIETRA</span></span>
+            <br>
+            <span style="font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8D8B55;font-weight:700">Ver no mapa →</span>
+          </a>
+          
+        </div>
+      </div>
+    </div>
+
+    <!-- Onde comer -->
+    <div style="background:#4D4B2E">
+      <div style="max-width:1100px;margin:0 auto;padding:clamp(48px,7vw,72px) clamp(20px,5vw,32px)">
+        <div style="display:flex;align-items:center;justify-content:center;gap:10px;margin-bottom:clamp(26px,4vw,36px)">
+          <span style="width:6px;height:6px;border-radius:50%;background:#F5F0E8"></span>
+          <p style="letter-spacing:.34em;text-transform:uppercase;font-size:13px;color:#F5F0E8;font-weight:700;margin:0;text-align:center">RECOMENDAÇÕES LOCAIS PARA COMER E CONHECER</p>
+          <span style="width:6px;height:6px;border-radius:50%;background:#F5F0E8"></span>
+        </div>
+        <div data-stagger-group="" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(128px,1fr));gap:10px">
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=La+Terrazza+Rua+Nelson+Bruschini+60+Serra+Negra+SP" target="_blank" rel="noopener" style="display:block;text-decoration:none;background:#F5F0E8;border:1px solid rgba(245,240,232,.35);overflow:hidden">
+            <div style="width:100%;aspect-ratio:4/3"><image-slot id="rec-photo-0" src="assets/rec-photo-0.webp" shape="rect" placeholder="Foto da La Terraza" style="width:100%;height:100%"></image-slot></div>
+            <div style="padding:12px 14px">
+              <h4 style="font-family:'Cormorant Garamond',serif;font-size:16.5px;font-weight:600;margin:0 0 3px;color:#605E39;line-height:1.2">La Terrazza</h4>
+              <p style="color:#8D8B55;font-size:10px;line-height:1.4;margin:0 0 5px">Rua Nelson Bruschini, 60<br>(19) 98896-0866</p>
+              <span style="font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:#8D8B55;font-weight:700">Italiano · ver no mapa →</span>
+            </div>
+          </a>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Cantina+Schiavo+Rua+Sete+de+Setembro+289+Serra+Negra+SP" target="_blank" rel="noopener" style="display:block;text-decoration:none;background:#F5F0E8;border:1px solid rgba(245,240,232,.35);overflow:hidden">
+            <div style="width:100%;aspect-ratio:4/3"><image-slot id="rec-photo-1" src="assets/rec-photo-1.webp" shape="rect" placeholder="Foto da Cantina Schiavo" style="width:100%;height:100%"></image-slot></div>
+            <div style="padding:12px 14px">
+              <h4 style="font-family:'Cormorant Garamond',serif;font-size:16.5px;font-weight:600;margin:0 0 3px;color:#605E39;line-height:1.2">Cantina Schiavo</h4>
+              <p style="color:#8D8B55;font-size:10px;line-height:1.4;margin:0 0 5px">Rua Sete de Setembro, 289<br>(19) 3892-3442</p>
+              <span style="font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:#8D8B55;font-weight:700">Italiano · ver no mapa →</span>
+            </div>
+          </a>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Cafe+Boteco+Serra+Negra+SP" target="_blank" rel="noopener" style="display:block;text-decoration:none;background:#F5F0E8;border:1px solid rgba(245,240,232,.35);overflow:hidden">
+            <div style="width:100%;aspect-ratio:4/3"><image-slot id="rec-photo-2" src="assets/rec-photo-2.webp" shape="rect" placeholder="Foto do Café Boteco" style="width:100%;height:100%"></image-slot></div>
+            <div style="padding:12px 14px">
+              <h4 style="font-family:'Cormorant Garamond',serif;font-size:16.5px;font-weight:600;margin:0 0 3px;color:#605E39;line-height:1.2">Café Boteco</h4>
+              <p style="color:#8D8B55;font-size:10px;line-height:1.4;margin:0 0 5px">Centro de Serra Negra</p>
+              <span style="font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:#8D8B55;font-weight:700">Brasileiro · ver no mapa →</span>
+            </div>
+          </a>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Aldeola+Serra+Negra+SP" target="_blank" rel="noopener" style="display:block;text-decoration:none;background:#F5F0E8;border:1px solid rgba(245,240,232,.35);overflow:hidden">
+            <div style="width:100%;aspect-ratio:4/3"><image-slot id="rec-photo-3" src="assets/rec-photo-3.webp" shape="rect" placeholder="Foto do Aldeola" style="width:100%;height:100%"></image-slot></div>
+            <div style="padding:12px 14px">
+              <h4 style="font-family:'Cormorant Garamond',serif;font-size:16.5px;font-weight:600;margin:0 0 3px;color:#605E39;line-height:1.2">Aldeola</h4>
+              <p style="color:#8D8B55;font-size:10px;line-height:1.4;margin:0 0 5px">Serra Negra, SP</p>
+              <span style="font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:#8D8B55;font-weight:700">Restaurante · ver no mapa →</span>
+            </div>
+          </a>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Fontana+di+Trevi+Serra+Negra+SP" target="_blank" rel="noopener" style="display:block;text-decoration:none;background:#F5F0E8;border:1px solid rgba(245,240,232,.35);overflow:hidden">
+            <div style="width:100%;aspect-ratio:4/3"><image-slot id="rec-photo-4" src="assets/rec-photo-4.webp" shape="rect" placeholder="Foto da Fontana di Trevi" style="width:100%;height:100%"></image-slot></div>
+            <div style="padding:12px 14px">
+              <h4 style="font-family:'Cormorant Garamond',serif;font-size:16.5px;font-weight:600;margin:0 0 3px;color:#605E39;line-height:1.2">Fontana di Trevi</h4>
+              <p style="color:#8D8B55;font-size:10px;line-height:1.4;margin:0 0 5px">Centro de Serra Negra</p>
+              <span style="font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:#8D8B55;font-weight:700">Ponto turístico · ver no mapa →</span>
+            </div>
+          </a>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Teleferico+Serra+Negra+SP" target="_blank" rel="noopener" style="display:block;text-decoration:none;background:#F5F0E8;border:1px solid rgba(245,240,232,.35);overflow:hidden">
+            <div style="width:100%;aspect-ratio:4/3"><image-slot id="rec-photo-5" src="assets/rec-photo-5.webp" shape="rect" placeholder="Foto do Bondinho" style="width:100%;height:100%"></image-slot></div>
+            <div style="padding:12px 14px">
+              <h4 style="font-family:'Cormorant Garamond',serif;font-size:16.5px;font-weight:600;margin:0 0 3px;color:#605E39;line-height:1.2">Bondinho ao Cristo</h4>
+              <p style="color:#8D8B55;font-size:10px;line-height:1.4;margin:0 0 5px">Vista panorâmica da cidade</p>
+              <span style="font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:#8D8B55;font-weight:700">Ponto turístico · ver no mapa →</span>
+            </div>
+          </a>
+          <a href="https://www.google.com/maps/search/?api=1&amp;query=Alto+da+Serra+Serra+Negra+SP" target="_blank" rel="noopener" style="display:block;text-decoration:none;background:#F5F0E8;border:1px solid rgba(245,240,232,.35);overflow:hidden">
+            <div style="width:100%;aspect-ratio:4/3"><image-slot id="rec-photo-7" src="assets/rec-photo-7.webp" shape="rect" placeholder="Foto do Alto da Serra" style="width:100%;height:100%"></image-slot></div>
+            <div style="padding:12px 14px">
+              <h4 style="font-family:'Cormorant Garamond',serif;font-size:16.5px;font-weight:600;margin:0 0 3px;color:#605E39;line-height:1.2">Alto da Serra</h4>
+              <p style="color:#8D8B55;font-size:10px;line-height:1.4;margin:0 0 5px">Mirante da região</p>
+              <span style="font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:#8D8B55;font-weight:700">Ponto turístico · ver no mapa →</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- Beleza -->
+    <div style="background-image:repeating-linear-gradient(90deg,#EDE7D9 0 26px,#DFD5BC 26px 52px)">
+      <div style="max-width:1100px;margin:0 auto;padding:clamp(48px,7vw,72px) clamp(20px,5vw,32px)">
+        <div style="text-align:center;margin-bottom:clamp(26px,4vw,36px)">
+          <p style="letter-spacing:.34em;text-transform:uppercase;font-size:13px;color:#605E39;font-weight:700;margin:0 0 6px">Fique ainda mais linda</p>
+          <div style="font-family:'Great Vibes',cursive;font-size:clamp(34px,4.6vw,46px);color:#605E39;line-height:1">Para se preparar</div>
+          <p style="color:#666;font-size:13.5px;font-style:italic;margin:12px auto 0;max-width:520px">Indicações da noiva — mas a cidade tem outras ótimas opções, se preferir. <br>Reserve com bastante antecedência!</p>
+        </div>
+        <div data-stagger-group="" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,250px),1fr));gap:clamp(14px,2vw,18px)">
+        <a href="https://wa.me/5519997125501" target="_blank" rel="noopener" style="display:block;text-decoration:none;text-align:center;background:#F5F0E8;border:1px solid rgba(175,173,121,.4);padding:24px 18px;transition:border-color .2s,transform .2s" style-hover="border-color:#8D8B55;transform:translateY(-2px)">
+          <h4 style="letter-spacing:.06em;text-transform:uppercase;font-size:14.5px;font-weight:700;color:#2C2C2C;margin:0 0 8px">JH Beauty Concept</h4>
+          <div style="width:26px;height:1px;background:#AFAD79;margin:0 auto 10px"></div>
+          <p style="font-style:italic;color:#666;font-size:13.5px;margin:0 0 10px">Salão em Serra Negra — cabelo e maquiagem.</p>
+          <span style="font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8D8B55;font-weight:700">WhatsApp (19) 99712-5501 →</span>
+        </a>
+        <a href="https://wa.me/5519997732726" target="_blank" rel="noopener" style="display:block;text-decoration:none;text-align:center;background:#F5F0E8;border:1px solid rgba(175,173,121,.4);padding:24px 18px;transition:border-color .2s,transform .2s" style-hover="border-color:#8D8B55;transform:translateY(-2px)">
+          <h4 style="letter-spacing:.06em;text-transform:uppercase;font-size:14.5px;font-weight:700;color:#2C2C2C;margin:0 0 8px">Ro Magon Make</h4>
+          <div style="width:26px;height:1px;background:#AFAD79;margin:0 auto 10px"></div>
+          <p style="font-style:italic;color:#666;font-size:13.5px;margin:0 0 10px">Cabeleireira / terapeuta capilar, em Serra Negra.</p>
+          <span style="font-size:10.5px;letter-spacing:.14em;text-transform:uppercase;color:#8D8B55;font-weight:700">WhatsApp (19) 99773-2726 →</span>
+        </a>
+        <div style="background:#605E39;border:1px solid rgba(175,173,121,.4);padding:24px 18px;display:flex;align-items:center;justify-content:center;text-align:center">
+          <p style="margin:0;color:#F5F0E8;font-size:14px;font-style:italic">Dica: agende cabelo e maquiagem com antecedência — a cidade fica concorrida nos fins de semana.</p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </section><section id="galeria" data-rev="galeria" style="scroll-margin-top:78px;opacity:0;transform:translateY(26px);transition:opacity 1s cubic-bezier(.16,.84,.32,1),transform 1s cubic-bezier(.16,.84,.32,1);background:#4D4B2E">
+    <div style="max-width:1100px;margin:0 auto;padding:clamp(56px,9vw,110px) clamp(20px,5vw,32px)">
+    <div style="text-align:center;margin-bottom:clamp(34px,5vw,52px)">
+      <p style="letter-spacing:.36em;text-transform:uppercase;font-size:13px;color:#F5F0E8;font-weight:700;margin:0 0 6px">Momentos</p>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(34px,6vw,56px);margin:0;color:#F5F0E8">Galeria de Fotos</h2>
+    </div>
+
+    <sc-if value="{{ hasPhotos }}" hint-placeholder-val="{{ false }}">
+      <div data-stagger-group="" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(min(50% - 7px,230px),1fr));gap:14px">
+        <sc-for list="{{ galleryItems }}" as="item" hint-placeholder-count="0">
+          <button onClick="{{ openLight }}" data-idx="{{ item.idx }}" style="border:none;padding:0;cursor:pointer;background-color:#e6e0d3;background-image:{{ item.bg }};background-size:cover;background-position:center;border-radius:3px;overflow:hidden;aspect-ratio:1/1;display:block;transition:transform .4s ease" style-hover="transform:scale(1.03)"></button>
+        </sc-for>
+      </div>
+    </sc-if>
+    <sc-if value="{{ noPhotos }}" hint-placeholder-val="{{ true }}">
+      <div style="border:1.5px dashed rgba(245,240,232,.5);border-radius:4px;padding:clamp(50px,8vw,90px) 24px;text-align:center;background:rgba(245,240,232,.1)">
+        <svg width="56" height="56" viewBox="0 0 56 56" fill="none" style="margin-bottom:14px"><path d="M28 8 C32 18 32 26 28 44 C24 26 24 18 28 8Z" fill="#F5F0E8" opacity=".9"></path><path d="M28 22 C38 22 46 26 50 32 M28 30 C18 30 10 34 6 40" stroke="#DDDCC6" stroke-width="1.4" fill="none"></path><circle cx="28" cy="44" r="3" fill="#F5F0E8"></circle></svg>
+        <p style="font-family:'Cormorant Garamond',serif;font-style:italic;font-size:clamp(20px,3vw,26px);color:#F5F0E8;margin:0">Em breve</p>
+        <p style="color:#DDDCC6;font-size:14px;margin:6px 0 0">Nossas fotos favoritas aparecerão aqui.</p>
+      </div>
+    </sc-if>
+    </div>
+  </section>
+
+  <!-- PRESENTES -->
+  <section id="presentes" data-rev="presentes" style="scroll-margin-top:78px;position:relative;overflow:hidden;padding:clamp(56px,9vw,110px) clamp(20px,5vw,32px);opacity:0;transform:translateY(26px);transition:opacity 1s cubic-bezier(.16,.84,.32,1),transform 1s cubic-bezier(.16,.84,.32,1)">
+    <div style="position:absolute;inset:0;background-color:rgba(141,139,85,.1);background-image:repeating-linear-gradient(90deg,transparent 0 26px,rgba(141,139,85,.14) 26px 27px)"></div>
+    <div style="position: relative; z-index: 1; max-width: 1140px; margin: 0 auto; width: 100%">
+      <div style="text-align:center;margin-bottom:clamp(34px,5vw,52px)">
+        <p style="letter-spacing:.36em;text-transform:uppercase;font-size:13px;color:#8D8B55;font-weight:700;margin:0 0 6px">LUA DE MEL NO JAPÃO E PRAIA NA ÁSIA</p>
+        <h2 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(34px,6vw,56px);margin:0 0 10px;color:#2C2C2C">Lista de Presentes</h2>
+        <p style="max-width: 600px; margin: 0 auto; color: #555; font-size: clamp(15px,1.8vw,17px)">&nbsp;&nbsp;Sua presença é o nosso maior presente! Mas, se desejar nos abençoar de uma forma especial, você pode escolher uma lembrança simbólica da nossa lua de mel. E, claro, caso prefira nos presentear com algo físico, receberemos com muito carinho. O mais importante para nós é ter você ao nosso lado, celebrando esse dia tão especial!</p>
+      </div>
+
+      <div data-stagger-group="" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(128px,1fr));gap:10px">
+        <sc-for list="{{ gifts }}" as="gift" hint-placeholder-count="15">
+          <div style="background:#fff;border:1px solid rgba(175,173,121,.35);border-radius:3px;padding:12px 12px 11px;display:flex;flex-direction:column;gap:5px" style-hover="border-color:#8D8B55;box-shadow:0 10px 22px rgba(96,94,57,.14)">
+            <div style="width:24px;height:24px;border-radius:50%;background:rgba(141,139,85,.18);display:flex;align-items:center;justify-content:center">
+              <svg width="13" height="13" viewBox="0 0 24 24" fill="none"><path d="M12 4 C14.5 8 14.5 12 12 20 C9.5 12 9.5 8 12 4Z" fill="#605E39"></path></svg>
+            </div>
+            <h3 style="font-family:'Cormorant Garamond',serif;font-size:15px;font-weight:600;margin:0;color:#2C2C2C;line-height:1.2">{{ gift.nome }}</h3>
+            <p style="margin:0;color:#666;font-size:11px;flex:1;line-height:1.35">{{ gift.desc }}</p>
+            <span style="font-family:'Cormorant Garamond',serif;font-size:17px;font-weight:600;color:#605E39">{{ gift.valorFmt }}</span>
+            <button onClick="{{ gift.open }}" style="background:#605E39;color:#F5F0E8;border:none;padding:7px 10px;border-radius:2px;font-size:9px;letter-spacing:.08em;text-transform:uppercase;font-weight:700;cursor:pointer;width:100%" style-hover="background:#46452A">Presentear</button>
+          </div>
+        </sc-for>
+      </div>
+    </div>
+  </section>
+
+  <!-- RSVP -->
+  <section id="rsvp" data-rev="rsvp" style="scroll-margin-top:78px;position:relative;overflow:hidden;background:radial-gradient(120% 140% at 50% 0%,#5A5836 0%,#43411F 55%,#33321A 100%);padding:clamp(56px,9vw,110px) clamp(20px,5vw,32px);opacity:0;transform:translateY(26px);transition:opacity 1s cubic-bezier(.16,.84,.32,1),transform 1s cubic-bezier(.16,.84,.32,1)">
+    <div style="position:absolute;inset:0;background-image:repeating-linear-gradient(90deg,rgba(255,255,255,.025) 0 1px,transparent 1px 44px)"><div style="position: absolute; top: 1px; left: -2px; width: 100%; height: 6px; background: repeating-linear-gradient(90deg,#605E39 0 18px,#F5F0E8 18px 36px)"></div></div>
+    
+    
+    
+  <div style="position:relative;z-index:1;max-width:680px;margin:0 auto">
+    <div style="text-align:center;margin-bottom:clamp(24px,4vw,36px)">
+      <p style="letter-spacing: .36em; text-transform: uppercase; font-size: 15px; color: #CDCCAC; font-weight: 700; margin: 0 0 6px">Confirme sua presença</p>
+      <h2 style="font-family:'Cormorant Garamond',serif;font-weight:600;font-size:clamp(34px,6vw,56px);margin:0;color:#F5F0E8">RSVP</h2>
+    </div>
+    
+    <div style="display:flex;justify-content:center;margin-bottom:clamp(24px,4vw,36px)">
+      
+    <div style="display:inline-flex;align-items:center;gap:12px;background:rgba(245,240,232,.1);border:1px solid rgba(245,240,232,.35);color:#F5F0E8;border-radius:999px;padding:12px 22px;text-align:left">
+        <svg width="26" height="26" viewBox="0 0 26 26" fill="none" style="flex:0 0 auto"><circle cx="13" cy="13" r="10.5" stroke="#F5F0E8" stroke-width="1.4"></circle><path d="M13 7 V13 L17 15.5" stroke="#F5F0E8" stroke-width="1.6" stroke-linecap="round"></path></svg>
+        <div>
+          <div style="font-size:11px;letter-spacing:.18em;text-transform:uppercase;color:#E2E2CF;font-weight:700;line-height:1.2">Confirme até</div>
+          <div style="font-family:'Cormorant Garamond',serif;font-size:clamp(20px,3vw,26px);font-weight:600;letter-spacing:.04em;line-height:1.1">17 de janeiro de 2027</div>
+        </div>
+      </div></div><p style="text-align:center;color:#E2E2CF;font-size:14px;margin:-8px 0 clamp(26px,4vw,38px);font-weight:700"><i>Pedimos a gentileza de confirmar até 3 meses antes do casamento&nbsp;</i></p>
+
+    <div style="padding:clamp(24px,4vw,40px) 0">
+      <p style="text-align:center;color:#CDCCAC;font-size:11.5px;letter-spacing:.2em;text-transform:uppercase;margin:20px 0 0">Toque no envelope para confirmar presença</p><a href="https://assessoriavip.com.br/rsvp/37a29547-4aff-4c35-9704-02dda216314d" target="_blank" rel="noopener" style="display:block;text-decoration:none;max-width:580px;margin:0 auto;position:relative;aspect-ratio:16/9;filter:drop-shadow(0 24px 44px rgba(0,0,0,.35));transition:transform .3s" style-hover="transform:translateY(-4px)">
+        <div style="position:absolute;inset:0;background:linear-gradient(175deg,#FDFAF3,#F6F0E1)"></div>
+        <div style="position:absolute;top:0;left:-1%;width:102%;height:56%;clip-path:polygon(0 0,100% 0,50% 100%);background:rgba(0,0,0,.07)"></div>
+        <div style="position:absolute;top:0;left:0;width:100%;height:55%;clip-path:polygon(0 0,100% 0,50% 100%);background:linear-gradient(175deg,#FDFAF3,#F6F0E1)"></div>
+        
+        <div style="position:absolute;left:50%;top:55%;transform:translate(-50%,-46%);width:190px;height:122px">
+          <div style="position:absolute;left:50%;top:88px;transform:translateX(-50%);width:130px;height:22px;background:radial-gradient(ellipse,rgba(0,0,0,.3),transparent 72%);z-index:0"></div>
+          <div style="position:absolute;left:66px;top:40px;width:22px;height:70px;background:linear-gradient(130deg,#302e1b 0%,#6b6940 30%,#9a9660 50%,#6b6940 70%,#302e1b 100%);transform:rotate(11deg);clip-path:polygon(0 0,100% 0,100% 87%,50% 100%,0 87%);box-shadow:2px 4px 8px rgba(0,0,0,.25);z-index:1"></div>
+          <div style="position:absolute;right:66px;top:40px;width:22px;height:70px;background:linear-gradient(50deg,#302e1b 0%,#6b6940 30%,#9a9660 50%,#6b6940 70%,#302e1b 100%);transform:rotate(-11deg);clip-path:polygon(0 0,100% 0,100% 87%,50% 100%,0 87%);box-shadow:-2px 4px 8px rgba(0,0,0,.25);z-index:1"></div>
+          <div style="position:absolute;left:12px;top:6px;width:80px;height:54px;clip-path:polygon(100% 50%,83% 16%,56% 3%,29% 7%,8% 22%,0% 50%,8% 78%,29% 93%,56% 97%,83% 84%);background:linear-gradient(120deg,#272510 0%,#5f5d34 28%,#b3ae76 50%,#5f5d34 72%,#272510 100%);box-shadow:3px 6px 12px rgba(0,0,0,.3);z-index:2"></div>
+          <div style="position:absolute;right:12px;top:6px;width:80px;height:54px;clip-path:polygon(0% 50%,17% 16%,44% 3%,71% 7%,92% 22%,100% 50%,92% 78%,71% 93%,44% 97%,17% 84%);background:linear-gradient(60deg,#272510 0%,#5f5d34 28%,#b3ae76 50%,#5f5d34 72%,#272510 100%);box-shadow:-3px 6px 12px rgba(0,0,0,.3);z-index:2"></div>
+          <div style="position:absolute;left:26px;top:18px;width:34px;height:15px;border-radius:50%;background:rgba(255,255,255,.28);transform:rotate(-18deg);filter:blur(1.8px);z-index:2"></div>
+          <div style="position:absolute;right:26px;top:18px;width:34px;height:15px;border-radius:50%;background:rgba(255,255,255,.28);transform:rotate(18deg);filter:blur(1.8px);z-index:2"></div>
+          <div style="position:absolute;left:50%;top:26px;transform:translateX(-50%);width:34px;height:28px;border-radius:4px;background:linear-gradient(100deg,#302e1b 0%,#6b6940 30%,#9a9660 50%,#6b6940 70%,#302e1b 100%);box-shadow:0 3px 8px rgba(0,0,0,.35);z-index:3"></div>
+          <div style="position:absolute;left:50%;top:26px;transform:translateX(-50%);width:3px;height:28px;background:rgba(0,0,0,.22);z-index:4"></div>
+        </div>
+      </a>
+      
+    </div>
+    </div></section>
+
+  <!-- FOOTER -->
+  <footer style="position:relative;overflow:hidden;text-align:center;padding:clamp(40px,6vw,64px) 20px;border-top:1px solid rgba(175,173,121,.4)">
+    <div style="position:absolute;top:0;left:0;width:100%;height:6px;background:repeating-linear-gradient(90deg,#605E39 0 18px,#F5F0E8 18px 36px)"></div>
+    <div style="font-family:'Great Vibes',cursive;font-size:40px;color:#605E39;line-height:1">Júlia &amp; Tiago</div>
+    <p style="color:#AFAD79;font-size:14px;margin:8px 0 0;letter-spacing:.2em">17 · 04 · 2027 · SERRA NEGRA · SP</p>
+    <p style="color:#8D8B55;font-size:12.5px;margin:20px 0 0;letter-spacing:.04em">Dúvidas? Fale com nossa assessora <strong style="color:#605E39">Janaína Gardini</strong> — <a href="https://wa.me/5519991116835" target="_blank" rel="noopener" style="color:#605E39;text-decoration:none;font-weight:700" style-hover="text-decoration:underline">+55 19 99111-6835</a></p>
+    <a href="#admin" style="display:inline-block;margin-top:18px;color:#bfb6a3;font-size:11px;letter-spacing:.18em;text-transform:uppercase;text-decoration:none" style-hover="color:#8D8B55">Painel dos noivos</a>
+  </footer>
+
+  <!-- ===== MODAL DE PRESENTE ===== -->
+  <sc-if value="{{ giftModal }}" hint-placeholder-val="{{ false }}">
+    <div onClick="{{ closeGift }}" style="position:fixed;inset:0;z-index:60;background:rgba(44,44,44,.55);backdrop-filter:blur(3px);display:flex;align-items:center;justify-content:center;padding:18px;overflow-y:auto">
+      <div onClick="{{ stop }}" style="background:#F5F0E8;border-radius:5px;max-width:760px;width:100%;max-height:92vh;overflow-y:auto;box-shadow:0 24px 60px rgba(0,0,0,.3);position:relative;margin:auto">
+        <button onClick="{{ closeGift }}" style="position:absolute;top:14px;right:14px;width:34px;height:34px;border-radius:50%;border:none;background:rgba(96,94,57,.12);color:#605E39;font-size:18px;cursor:pointer;line-height:1;z-index:2" style-hover="background:rgba(96,94,57,.25)">✕</button>
+
+        <sc-if value="{{ giftDone }}" hint-placeholder-val="{{ false }}">
+          <div style="text-align:center;padding:clamp(40px,6vw,70px) 30px">
+            <svg width="56" height="56" viewBox="0 0 50 50" fill="none" style="margin-bottom:12px"><circle cx="25" cy="25" r="22" stroke="#8D8B55" stroke-width="1.6"></circle><path d="M16 25.5 L22.5 32 L34 19" stroke="#605E39" stroke-width="2.2" fill="none" stroke-linecap="round" stroke-linejoin="round"></path></svg>
+            <h3 style="font-family:'Cormorant Garamond',serif;font-size:30px;font-weight:600;margin:0 0 8px;color:#605E39">Muito obrigado!</h3>
+            <p style="color:#555;margin:0 0 4px;max-width:440px;margin-left:auto;margin-right:auto">Seu presente foi registrado com muito carinho na nossa lista de presentes. 💚</p>
+            <p style="color:#605E39;font-weight:700;margin:10px auto 0;max-width:440px;font-size:14.5px">Importante: a confirmação de presença é separada. Se você ainda não confirmou, não esqueça de preencher o RSVP!</p>
+            <div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-top:22px">
+              <a href="#rsvp" onClick="{{ closeGift }}" style="background:#605E39;color:#F5F0E8;text-decoration:none;padding:13px 26px;border-radius:2px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:700">Confirmar presença</a>
+              <button onClick="{{ closeGift }}" style="background:none;border:1px solid #AFAD79;color:#605E39;padding:13px 26px;border-radius:2px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;cursor:pointer">Fechar</button>
+            </div>
+          </div>
+        </sc-if>
+
+        <sc-if value="{{ giftFormOpen }}" hint-placeholder-val="{{ true }}">
+          <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,300px),1fr))">
+            <!-- esquerda: detalhes -->
+            <div style="padding:clamp(28px,4vw,40px)">
+              <p style="letter-spacing:.28em;text-transform:uppercase;font-size:11px;color:#8D8B55;font-weight:700;margin:0 0 6px">Você está presenteando</p>
+              <h3 style="font-family:'Cormorant Garamond',serif;font-size:clamp(26px,3.4vw,32px);font-weight:600;margin:0 0 8px;color:#2C2C2C;line-height:1.15">{{ giftModalNome }}</h3>
+              <p style="color:#666;font-size:14.5px;margin:0 0 22px">{{ giftModalDesc }}</p>
+
+              <label style="display:flex;flex-direction:column;gap:6px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#605E39;font-weight:700;margin-bottom:16px">Seu nome
+                <input value="{{ giftName }}" onInput="{{ onGiftName }}" placeholder="Como aparecerá na lista" style="font-size:16px;padding:11px 13px;border:1px solid #CFCFAF;border-radius:3px;background:#fff;color:#2C2C2C;font-weight:400;letter-spacing:0;text-transform:none">
+              </label>
+              <label style="display:flex;flex-direction:column;gap:6px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;color:#605E39;font-weight:700">Valor (R$)
+                <input type="number" min="1" step="1" value="{{ giftAmount }}" onInput="{{ onGiftAmount }}" style="font-size:18px;padding:11px 13px;border:1px solid #CFCFAF;border-radius:3px;background:#fff;color:#2C2C2C;font-weight:700;letter-spacing:0">
+              </label>
+            </div>
+            <!-- direita: PIX -->
+            <div style="padding:clamp(28px,4vw,40px);background:#605E39;color:#F5F0E8;display:flex;flex-direction:column;align-items:center;text-align:center;gap:14px">
+              <p style="letter-spacing:.28em;text-transform:uppercase;font-size:11px;color:#DDDCC6;font-weight:700;margin:0">Pague com PIX</p>
+              <div ref="{{ setQr }}" style="background:#fff;padding:10px;border-radius:4px;min-width:184px;min-height:184px;display:flex;align-items:center;justify-content:center"></div>
+              <p style="font-size:13px;color:#ECECDF;margin:0">Escaneie o QR Code com o app do seu banco — o valor de <strong style="font-weight:700">{{ giftAmountFmt }}</strong> já vem preenchido.</p>
+              <div style="width:100%;background:rgba(245,240,232,.1);border:1px solid rgba(245,240,232,.3);border-radius:3px;padding:10px 12px;display:flex;align-items:center;justify-content:space-between;gap:10px">
+                <div style="text-align:left;overflow:hidden">
+                  <div style="font-size:10px;letter-spacing:.2em;text-transform:uppercase;color:#DDDCC6">Chave PIX (Telefone)</div>
+                  <div style="font-size:15px;font-weight:700;letter-spacing:.04em">(46) 99104-0456</div>
+                </div>
+                <button onClick="{{ copyPix }}" style="flex:0 0 auto;background:#F5F0E8;color:#605E39;border:none;padding:9px 14px;border-radius:2px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:700;cursor:pointer">{{ copyLabel }}</button>
+              </div>
+              <button onClick="{{ confirmGift }}" style="width:100%;background:#F5F0E8;color:#605E39;border:none;padding:14px;border-radius:2px;font-size:12px;letter-spacing:.14em;text-transform:uppercase;font-weight:700;cursor:pointer;margin-top:2px" style-hover="background:#fff">Já paguei — registrar presente</button>
+              <p style="font-size:11.5px;color:#DDDCC6;margin:0">Após o pagamento, seu presente entra na nossa lista. A confirmação de presença é feita separadamente no RSVP. 🌿</p>
+            </div>
+          </div>
+        </sc-if>
+      </div>
+    </div>
+  </sc-if>
+
+  <!-- ===== LIGHTBOX ===== -->
+  <sc-if value="{{ lightboxOpen }}" hint-placeholder-val="{{ false }}">
+    <div onClick="{{ closeLight }}" style="position:fixed;inset:0;z-index:70;background:rgba(20,20,16,.92);display:flex;align-items:center;justify-content:center;padding:30px">
+      <button onClick="{{ closeLight }}" style="position:absolute;top:20px;right:24px;background:none;border:none;color:#F5F0E8;font-size:30px;cursor:pointer;line-height:1">✕</button>
+      <button onClick="{{ prevLight }}" style="position:absolute;left:16px;background:none;border:none;color:#F5F0E8;font-size:40px;cursor:pointer;padding:10px">‹</button>
+      <div role="img" aria-label="Foto ampliada" onClick="{{ stop }}" style="width:min(92vw,1100px);height:86vh;background-image:{{ lightboxBg }};background-size:contain;background-repeat:no-repeat;background-position:center"></div>
+      <button onClick="{{ nextLight }}" style="position:absolute;right:16px;background:none;border:none;color:#F5F0E8;font-size:40px;cursor:pointer;padding:10px">›</button>
+    </div>
+  </sc-if>
+
+</sc-if>
+
+<!-- ============================ PAINEL ADMIN ============================ -->
+<sc-if value="{{ isAdmin }}" hint-placeholder-val="{{ false }}">
+  <div style="min-height:100vh;display:flex;flex-direction:column">
+
+    <!-- LOGIN -->
+    <sc-if value="{{ adminLocked }}" hint-placeholder-val="{{ true }}">
+      <div style="flex:1;display:flex;align-items:center;justify-content:center;padding:24px">
+        <form onSubmit="{{ doLogin }}" style="background:#fff;border:1px solid rgba(175,173,121,.4);border-radius:5px;padding:clamp(34px,5vw,48px);width:100%;max-width:380px;text-align:center;box-shadow:0 14px 40px rgba(0,0,0,.08)">
+          <div style="font-family:'Great Vibes',cursive;font-size:34px;color:#605E39;line-height:1">Júlia &amp; Tiago</div>
+          <p style="letter-spacing:.26em;text-transform:uppercase;font-size:11px;color:#8D8B55;font-weight:700;margin:8px 0 26px">Painel dos noivos</p>
+          <input type="password" value="{{ adminPassInput }}" onInput="{{ onPass }}" placeholder="Senha de acesso" autofocus="" style="width:100%;font-size:16px;padding:13px 14px;border:1px solid #CFCFAF;border-radius:3px;background:#faf8f3;text-align:center;letter-spacing:.1em">
+          <sc-if value="{{ adminError }}" hint-placeholder-val="{{ false }}">
+            <p style="color:#b04a3a;font-size:13px;margin:10px 0 0">Senha incorreta. Tente novamente.</p>
+          </sc-if>
+          <button type="submit" style="width:100%;margin-top:18px;background:#605E39;color:#F5F0E8;border:none;padding:14px;border-radius:2px;font-size:12px;letter-spacing:.16em;text-transform:uppercase;font-weight:700;cursor:pointer" style-hover="background:#46452A">Entrar</button>
+          <a href="#hero" style="display:inline-block;margin-top:16px;color:#bfb6a3;font-size:11px;letter-spacing:.16em;text-transform:uppercase;text-decoration:none">← Voltar ao site</a>
+        </form>
+      </div>
+    </sc-if>
+
+    <!-- DASHBOARD -->
+    <sc-if value="{{ adminAuth }}" hint-placeholder-val="{{ false }}">
+      <div style="background:#605E39;color:#F5F0E8;padding:18px clamp(18px,4vw,40px);display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap">
+        <div>
+          <div style="font-family:'Cormorant Garamond',serif;font-size:24px;font-weight:600;line-height:1">Painel dos Noivos</div>
+          <div style="font-size:12px;color:#DDDCC6;letter-spacing:.14em">JÚLIA &amp; TIAGO · 17·04·2027</div>
+        </div>
+        <a href="#hero" style="background:rgba(245,240,232,.14);color:#F5F0E8;text-decoration:none;padding:9px 18px;border-radius:2px;font-size:11px;letter-spacing:.14em;text-transform:uppercase;font-weight:700" style-hover="background:rgba(245,240,232,.28)">Ver site público</a>
+      </div>
+
+      <!-- tabs -->
+      <div style="display:flex;gap:4px;padding:0 clamp(18px,4vw,40px);background:#fff;border-bottom:1px solid rgba(175,173,121,.35);flex-wrap:wrap">
+        <button onClick="{{ tabRsvp }}" style="background:none;border:none;border-bottom:3px solid {{ tabRsvpBorder }};color:{{ tabRsvpColor }};padding:16px 18px;font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;cursor:pointer">Confirmações ({{ rsvpCount }})</button>
+        <button onClick="{{ tabGifts }}" style="background:none;border:none;border-bottom:3px solid {{ tabGiftsBorder }};color:{{ tabGiftsColor }};padding:16px 18px;font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;cursor:pointer">Presentes ({{ giftCount }})</button>
+        <button onClick="{{ tabPhotos }}" style="background:none;border:none;border-bottom:3px solid {{ tabPhotosBorder }};color:{{ tabPhotosColor }};padding:16px 18px;font-size:12px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;cursor:pointer">Fotos ({{ photoCount }})</button>
+      </div>
+
+      <div style="flex:1;padding:clamp(22px,4vw,40px);max-width:1200px;margin:0 auto;width:100%">
+
+        <!-- TAB RSVP -->
+        <sc-if value="{{ showRsvpTab }}" hint-placeholder-val="{{ true }}">
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-bottom:16px">
+            <h2 style="font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:600;margin:0;color:#2C2C2C">Confirmações de Presença</h2>
+            <button onClick="{{ exportRsvp }}" style="background:#4D4B2E;color:#fff;border:none;padding:11px 20px;border-radius:2px;font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;cursor:pointer" style-hover="background:#6C7D52">Exportar CSV</button>
+          </div>
+          <sc-if value="{{ rsvpCount }}" hint-placeholder-val="{{ false }}">
+            <div style="overflow-x:auto;background:#fff;border:1px solid rgba(175,173,121,.35);border-radius:4px">
+              <table style="width:100%;border-collapse:collapse;min-width:640px;font-size:14px">
+                <thead><tr style="background:rgba(141,139,85,.14);text-align:left">
+                  <th style="padding:12px 14px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#605E39">Nome</th>
+                  <th style="padding:12px 14px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#605E39">Telefone</th>
+                  <th style="padding:12px 14px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#605E39">Recado</th>
+                  <th style="padding:12px 14px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#605E39">Data</th>
+                </tr></thead>
+                <tbody>
+                  <sc-for list="{{ rsvps }}" as="r" hint-placeholder-count="0">
+                    <tr style="border-top:1px solid rgba(175,173,121,.25)">
+                      <td style="padding:12px 14px;font-weight:700">{{ r.nome }}</td>
+                      <td style="padding:12px 14px">{{ r.tel }}</td>
+                      <td style="padding:12px 14px;color:#666;max-width:280px">{{ r.recado }}</td>
+                      <td style="padding:12px 14px;color:#999;white-space:nowrap">{{ r.data }}</td>
+                    </tr>
+                  </sc-for>
+                </tbody>
+              </table>
+            </div>
+          </sc-if>
+          <sc-if value="{{ noRsvps }}" hint-placeholder-val="{{ false }}">
+            <p style="color:#AFAD79;font-style:italic;padding:30px 0">Nenhuma confirmação registrada ainda.</p>
+          </sc-if>
+        </sc-if>
+
+        <!-- TAB GIFTS -->
+        <sc-if value="{{ showGiftTab }}" hint-placeholder-val="{{ false }}">
+          <div style="display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap;margin-bottom:16px">
+            <h2 style="font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:600;margin:0;color:#2C2C2C">Relatório de Presentes</h2>
+            <button onClick="{{ exportGifts }}" style="background:#4D4B2E;color:#fff;border:none;padding:11px 20px;border-radius:2px;font-size:11px;letter-spacing:.12em;text-transform:uppercase;font-weight:700;cursor:pointer" style-hover="background:#6C7D52">Exportar CSV</button>
+          </div>
+          <div style="background:#605E39;color:#F5F0E8;border-radius:4px;padding:22px 26px;margin-bottom:18px;display:flex;align-items:baseline;gap:14px;flex-wrap:wrap">
+            <span style="letter-spacing:.2em;text-transform:uppercase;font-size:12px;color:#DDDCC6">Total arrecadado</span>
+            <span style="font-family:'Cormorant Garamond',serif;font-size:clamp(30px,5vw,44px);font-weight:600">{{ totalFmt }}</span>
+          </div>
+          <sc-if value="{{ giftCount }}" hint-placeholder-val="{{ false }}">
+            <div style="overflow-x:auto;background:#fff;border:1px solid rgba(175,173,121,.35);border-radius:4px">
+              <table style="width:100%;border-collapse:collapse;min-width:560px;font-size:14px">
+                <thead><tr style="background:rgba(141,139,85,.14);text-align:left">
+                  <th style="padding:12px 14px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#605E39">Convidado</th>
+                  <th style="padding:12px 14px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#605E39">Presente</th>
+                  <th style="padding:12px 14px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#605E39">Valor</th>
+                  <th style="padding:12px 14px;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#605E39">Data/Hora</th>
+                </tr></thead>
+                <tbody>
+                  <sc-for list="{{ giftLog }}" as="g" hint-placeholder-count="0">
+                    <tr style="border-top:1px solid rgba(175,173,121,.25)">
+                      <td style="padding:12px 14px;font-weight:700">{{ g.nome }}</td>
+                      <td style="padding:12px 14px">{{ g.presente }}</td>
+                      <td style="padding:12px 14px;color:#605E39;font-weight:700;white-space:nowrap">{{ g.valorFmt }}</td>
+                      <td style="padding:12px 14px;color:#999;white-space:nowrap">{{ g.data }}</td>
+                    </tr>
+                  </sc-for>
+                </tbody>
+              </table>
+            </div>
+          </sc-if>
+          <sc-if value="{{ noGifts }}" hint-placeholder-val="{{ false }}">
+            <p style="color:#AFAD79;font-style:italic;padding:10px 0">Nenhum presente registrado ainda.</p>
+          </sc-if>
+        </sc-if>
+
+        <!-- TAB PHOTOS -->
+        <sc-if value="{{ showPhotoTab }}" hint-placeholder-val="{{ false }}">
+          <h2 style="font-family:'Cormorant Garamond',serif;font-size:28px;font-weight:600;margin:0 0 16px;color:#2C2C2C">Upload de Fotos</h2>
+          <label onDrop="{{ onDrop }}" onDragOver="{{ onDragOver }}" onDragLeave="{{ onDragLeave }}" style="display:flex;flex-direction:column;align-items:center;justify-content:center;gap:8px;border:2px dashed {{ dropBorder }};background:{{ dropBg }};border-radius:5px;padding:clamp(34px,6vw,60px) 24px;text-align:center;cursor:pointer;transition:all .2s ease">
+            <svg width="44" height="44" viewBox="0 0 44 44" fill="none"><path d="M22 30 V12 M14 19 L22 11 L30 19" stroke="#605E39" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"></path><path d="M8 28 V34 H36 V28" stroke="#8D8B55" stroke-width="1.8" stroke-linecap="round"></path></svg>
+            <span style="font-family:'Cormorant Garamond',serif;font-size:22px;color:#605E39">Arraste fotos aqui</span>
+            <span style="color:#AFAD79;font-size:13px">ou clique para selecionar — elas aparecem na galeria pública</span>
+            <input type="file" accept="image/*" multiple="" onChange="{{ onPick }}" style="display:none">
+          </label>
+
+          <sc-if value="{{ photoCount }}" hint-placeholder-val="{{ false }}">
+            <div style="display:grid;grid-template-columns:repeat(auto-fill,minmax(min(100%,150px),1fr));gap:12px;margin-top:22px">
+              <sc-for list="{{ adminPhotos }}" as="item" hint-placeholder-count="0">
+                <div style="position:relative;aspect-ratio:1/1;border-radius:4px;overflow:hidden;background-color:#e6e0d3;background-image:{{ item.bg }};background-size:cover;background-position:center">
+                  <button onClick="{{ removePhoto }}" data-idx="{{ item.idx }}" style="position:absolute;top:6px;right:6px;width:28px;height:28px;border-radius:50%;border:none;background:rgba(44,44,44,.7);color:#fff;font-size:14px;cursor:pointer;line-height:1" style-hover="background:#b04a3a">✕</button>
+                </div>
+              </sc-for>
+            </div>
+          </sc-if>
+          <sc-if value="{{ noPhotosAdmin }}" hint-placeholder-val="{{ true }}">
+            <p style="color:#AFAD79;font-style:italic;padding:22px 0">Nenhuma foto carregada. As fotos ficam salvas neste navegador.</p>
+          </sc-if>
+        </sc-if>
+
+      </div>
+    </sc-if>
+  </div>
+</sc-if>
+
+</div>
+</x-dc>
+<script type="text/x-dc" data-dc-script>
+class Component extends DCLogic {
+  constructor(props){
+    super(props);
+    // ---- helpers de armazenamento (localStorage = persistência client-side p/ GitHub Pages) ----
+    this.load = (k,d)=>{ try{ const v=localStorage.getItem(k); return v?JSON.parse(v):d; }catch(e){ return d; } };
+    this.save = (k,v)=>{ try{ localStorage.setItem(k,JSON.stringify(v)); }catch(e){ alert('Não foi possível salvar — armazenamento do navegador cheio.'); } };
+
+    // ---- catálogo fixo de presentes (lua de mel Japão + praia) ----
+    this.gifts = [
+      {n:'Noite em ryokan tradicional', d:'Tatames, onsen e a quietude das montanhas japonesas.', v:3200},
+      {n:'Passeio de barco em Arashiyama', d:'Deslizar pelo rio entre os bambuzais ao amanhecer.', v:1000},
+      {n:'Jantar omakase em Tóquio', d:'Nas mãos do chef, um menu surpresa à beira do balcão.', v:1800},
+      {n:'Visita ao Monte Fuji', d:'O cartão-postal do Japão diante dos nossos olhos.', v:1250},
+      {n:'Tour pelos templos de Kyoto', d:'Caminhar entre torii vermelhos e jardins de pedra.', v:450},
+      {n:'Cerimônia do chá', d:'O ritual silencioso do matcha, gesto a gesto.', v:600},
+      {n:'Cruzeiro pelo Rio Sumida', d:'Tóquio acendendo as luzes enquanto navegamos ao entardecer.', v:1500},
+      {n:'Hotel boutique em Osaka', d:'Duas noites na cidade que vive para comer bem.', v:3800},
+      {n:'Noite em Shibuya e Harajuku', d:'Néon, multidão e a energia elétrica da noite.', v:800},
+      {n:'Dia de spa e onsen', d:'Águas termais para relaxar a dois.', v:2200},
+      {n:'Upgrade para business class', d:'Atravessar o mundo com taças e pernas esticadas.', v:6000},
+      {n:'Diária em resort de praia', d:'A segunda parte da lua de mel, com os pés na areia.', v:4500},
+      {n:'Sessão de fotos no Japão', d:'Eternizar a viagem entre cerejeiras e ruelas.', v:5200},
+      {n:'Jantar romântico à beira-mar', d:'Brinde ao pôr do sol com o som das ondas.', v:2700},
+      {n:'Aluguel de kimono e passeio fotográfico', d:'Um dia vestidos a rigor pelas ruas históricas de Kyoto.', v:350}
+    ];
+
+    this.PASSWORD = 'juliatiago2027';
+    this.PIX_KEY = '+5546991040456'; // chave PIX do tipo telefone (46) 99104-0456
+    this.target = new Date(2027,3,17,16,0,0).getTime(); // 17/04/2027 16h (mês 3 = abril)
+    this.revealed = new Set();
+    this._qrLast = '';
+
+    this.state = {
+      view: this.isAdminHash() ? 'admin' : 'site',
+      isNarrow: typeof window!=='undefined' && window.matchMedia('(max-width: 879px)').matches,
+      navOpen: false,
+      adminAuth:false, adminPassInput:'', adminError:false, adminTab:'rsvp',
+      rsvps: this.load('jt_rsvps', []),
+      giftLog: this.load('jt_gifts', []),
+      photos: this.load('jt_photos', [1,2,3,4,5,6,7,8].map(i=>this.resAsset('gallery-'+i,'assets/gallery-'+i+'.jpeg'))),
+      giftModal:null, giftName:'', giftAmount:0, giftDone:false, copied:false,
+      lightbox:null,
+      rf_nome:'', rf_tel:'', rf_recado:'',
+      rsvpDone:false,
+      dragOver:false
+    };
+  }
+
+  isAdminHash(){ return (location.hash||'').toLowerCase().indexOf('admin') >= 0; }
+
+  // ---------- ciclo de vida ----------
+  componentDidMount(){
+    this._iv = setInterval(()=>this.tick(), 1000); this.tick();
+    this._io = new IntersectionObserver((entries)=>{
+      entries.forEach(en=>{
+        if(en.isIntersecting){
+          const id = en.target.getAttribute('data-rev');
+          this.revealed.add(id);
+          en.target.style.opacity = '1';
+          en.target.style.transform = 'none';
+          this.staggerKids(en.target, true);
+          this._io.unobserve(en.target);
+        }
+      });
+    }, {threshold:0.12});
+    this.applyReveals();
+    this._hash = ()=> this.setState({ view: this.isAdminHash() ? 'admin' : 'site', navOpen:false });
+    window.addEventListener('hashchange', this._hash);
+    this._mql = window.matchMedia('(max-width: 879px)');
+    this._onResize = ()=>{ const n = this._mql.matches; if(n!==this.state.isNarrow) this.setState({isNarrow:n, navOpen:false}); };
+    if(this._mql.addEventListener) this._mql.addEventListener('change', this._onResize); else this._mql.addListener(this._onResize);
+    window.addEventListener('resize', this._onResize);
+  }
+  componentWillUnmount(){
+    clearInterval(this._iv);
+    if(this._io) this._io.disconnect();
+    window.removeEventListener('hashchange', this._hash);
+    window.removeEventListener('resize', this._onResize);
+    if(this._mql){ if(this._mql.removeEventListener) this._mql.removeEventListener('change', this._onResize); else this._mql.removeListener(this._onResize); }
+  }
+  componentDidUpdate(){ this.applyReveals(); this.maybeRenderQR(); }
+
+  applyReveals(){
+    if(!this._io) return;
+    document.querySelectorAll('[data-rev]').forEach(n=>{
+      const id = n.getAttribute('data-rev');
+      if(this.revealed.has(id)){ n.style.opacity='1'; n.style.transform='none'; this.staggerKids(n, true); }
+      else { this.staggerKids(n, false); this._io.observe(n); }
+    });
+  }
+
+  // entrada em cascata dos itens dentro de cada seção
+  staggerKids(section, reveal){
+    const groups = section.querySelectorAll('[data-stagger-group]');
+    groups.forEach(group=>{
+      Array.from(group.children).forEach((k, i)=>{
+        if(reveal){
+          const d = 70 * Math.min(i, 8);
+          k.style.transition = 'opacity .7s cubic-bezier(.16,.84,.32,1) '+d+'ms, transform .55s cubic-bezier(.16,.84,.32,1) '+d+'ms, box-shadow .3s ease, border-color .3s ease';
+          k.style.opacity = '1';
+          k.style.transform = '';
+        } else {
+          k.style.opacity = '0';
+          k.style.transform = 'translateY(26px)';
+        }
+      });
+    });
+  }
+
+  // ---------- contagem regressiva (atualiza o DOM direto, sem re-render) ----------
+  tick(){
+    const diff = Math.max(0, this.target - Date.now());
+    const d = Math.floor(diff/86400000);
+    const h = Math.floor(diff%86400000/3600000);
+    const m = Math.floor(diff%3600000/60000);
+    const s = Math.floor(diff%60000/1000);
+    const pad = (n)=> String(n).padStart(2,'0');
+    if(this._d) this._d.textContent = String(d);
+    if(this._h) this._h.textContent = pad(h);
+    if(this._m) this._m.textContent = pad(m);
+    if(this._s) this._s.textContent = pad(s);
+  }
+
+  // ---------- PIX (BR Code / EMV) ----------
+  crc16(str){
+    let c = 0xFFFF;
+    for(let i=0;i<str.length;i++){
+      c ^= str.charCodeAt(i) << 8;
+      for(let j=0;j<8;j++){ c = (c & 0x8000) ? ((c<<1)^0x1021) : (c<<1); c &= 0xFFFF; }
+    }
+    return c.toString(16).toUpperCase().padStart(4,'0');
+  }
+  pixPayload(amount){
+    const f = (id,v)=> id + String(v.length).padStart(2,'0') + v;
+    const norm = (s)=> s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toUpperCase().replace(/[^A-Z0-9 ]/g,'');
+    const name = norm('JULIA E TIAGO').slice(0,25);
+    const city = norm('SERRA NEGRA').slice(0,15);
+    const gui  = f('00','BR.GOV.BCB.PIX') + f('01', this.PIX_KEY);
+    const amt  = (Number(amount)||0).toFixed(2);
+    let p = f('00','01') + f('26', gui) + f('52','0000') + f('53','986')
+          + f('54', amt) + f('58','BR') + f('59', name) + f('60', city)
+          + f('62', f('05','***')) + '6304';
+    return p + this.crc16(p);
+  }
+  maybeRenderQR(){
+    const g = this.state.giftModal;
+    if(!g || !this._qrNode || this.state.giftDone){ this._qrLast=''; return; }
+    if(typeof QRCode === 'undefined'){ setTimeout(()=>this.maybeRenderQR(), 300); return; }
+    const payload = this.pixPayload(this.state.giftAmount || g.valor);
+    if(payload === this._qrLast) return;
+    this._qrLast = payload;
+    this._qrNode.innerHTML = '';
+    new QRCode(this._qrNode, { text:payload, width:184, height:184, colorDark:'#2C2C2C', colorLight:'#ffffff', correctLevel:QRCode.CorrectLevel.M });
+  }
+
+  // ---------- formatação ----------
+  resAsset(id, fallback){ return (typeof window!=='undefined' && window.__resources && window.__resources[id]) || fallback; }
+  brl(n){ return 'R$ ' + Number(n||0).toLocaleString('pt-BR', {minimumFractionDigits:0, maximumFractionDigits:2}); }
+
+  // ---------- presentes ----------
+  openGift(g){ this._qrLast=''; this.setState({ giftModal:g, giftAmount:g.v, giftName:'', giftDone:false, copied:false }); }
+  closeGift(){ this.setState({ giftModal:null, giftDone:false }); }
+  copyPix(){
+    const txt = this.PIX_KEY;
+    const done = ()=>{ this.setState({copied:true}); clearTimeout(this._cp); this._cp=setTimeout(()=>this.setState({copied:false}),2000); };
+    if(navigator.clipboard && navigator.clipboard.writeText){ navigator.clipboard.writeText(txt).then(done).catch(done); }
+    else { try{ const t=document.createElement('textarea'); t.value=txt; document.body.appendChild(t); t.select(); document.execCommand('copy'); t.remove(); }catch(e){} done(); }
+  }
+  confirmGift(){
+    const g = this.state.giftModal; if(!g) return;
+    const entry = { nome:(this.state.giftName||'').trim()||'Anônimo', presente:g.n, valor:Number(this.state.giftAmount)||g.v, data:new Date().toLocaleString('pt-BR') };
+    const giftLog = this.state.giftLog.concat(entry);
+    this.save('jt_gifts', giftLog);
+    this.setState({ giftLog, giftDone:true });
+  }
+
+  // ---------- RSVP ----------
+  submitRsvp(e){
+    e.preventDefault();
+    const entry = { nome:this.state.rf_nome.trim(), tel:this.state.rf_tel.trim(), recado:this.state.rf_recado.trim(), data:new Date().toLocaleString('pt-BR') };
+    if(!entry.nome || !entry.tel) return;
+    const rsvps = this.state.rsvps.concat(entry);
+    this.save('jt_rsvps', rsvps);
+    this.setState({ rsvps, rsvpDone:true, rf_nome:'', rf_tel:'', rf_recado:'' });
+  }
+
+  // ---------- lightbox ----------
+  openLight(e){ const i = Number(e.currentTarget.getAttribute('data-idx')); this.setState({lightbox:i}); }
+  closeLight(){ this.setState({lightbox:null}); }
+  prevLight(e){ e.stopPropagation(); const n=this.state.photos.length; this.setState(s=>({lightbox:(s.lightbox - 1 + n)%n})); }
+  nextLight(e){ e.stopPropagation(); const n=this.state.photos.length; this.setState(s=>({lightbox:(s.lightbox + 1)%n})); }
+
+  // ---------- admin ----------
+  doLogin(e){ e.preventDefault(); if(this.state.adminPassInput===this.PASSWORD){ this.setState({adminAuth:true, adminError:false, adminPassInput:''}); } else { this.setState({adminError:true}); } }
+  handleFiles(files){
+    const arr = Array.from(files||[]).filter(f=>f.type && f.type.indexOf('image/')===0);
+    if(!arr.length) return;
+    let pending = arr.length; const acc = [];
+    arr.forEach(f=>{ const r=new FileReader(); r.onload=()=>{ acc.push(r.result); if(--pending===0){ const photos=this.state.photos.concat(acc); this.save('jt_photos',photos); this.setState({photos}); } }; r.readAsDataURL(f); });
+  }
+  removePhoto(e){ const i=Number(e.currentTarget.getAttribute('data-idx')); const photos=this.state.photos.slice(); photos.splice(i,1); this.save('jt_photos',photos); this.setState({photos}); }
+  downloadCsv(name, rows){
+    const csv = rows.map(r=> r.map(c=> '"'+String(c==null?'':c).replace(/"/g,'""')+'"').join(',')).join('\n');
+    const blob = new Blob(['\ufeff'+csv], {type:'text/csv;charset=utf-8;'});
+    const url = URL.createObjectURL(blob); const a=document.createElement('a'); a.href=url; a.download=name; document.body.appendChild(a); a.click(); a.remove(); URL.revokeObjectURL(url);
+  }
+  exportRsvp(){ const rows=[['Nome','Telefone','Recado','Data']].concat(this.state.rsvps.map(r=>[r.nome,r.tel,r.recado,r.data])); this.downloadCsv('confirmacoes-presenca.csv',rows); }
+  exportGifts(){ const rows=[['Convidado','Presente','Valor','Data/Hora']].concat(this.state.giftLog.map(g=>[g.nome,g.presente,this.brl(g.valor),g.data])); this.downloadCsv('relatorio-presentes.csv',rows); }
+
+  renderVals(){
+    const st = this.state;
+    const isAdmin = st.view==='admin';
+    const total = st.giftLog.reduce((a,g)=> a + (Number(g.valor)||0), 0);
+    const tabColor = (t)=> st.adminTab===t ? '#605E39' : '#AFAD79';
+    const tabBorder = (t)=> st.adminTab===t ? '#605E39' : 'transparent';
+    const gm = st.giftModal;
+
+    return {
+      // roteamento
+      isSite: !isAdmin,
+      isAdmin: isAdmin,
+      isWide: !st.isNarrow,
+      isNarrow: st.isNarrow,
+      showMobileMenu: st.isNarrow && st.navOpen,
+      toggleNav: ()=>this.setState(s=>({navOpen:!s.navOpen})),
+      closeNav: ()=>this.setState({navOpen:false}),
+      // refs do contador
+      setD:(n)=>this._d=n, setH:(n)=>this._h=n, setM:(n)=>this._m=n, setS:(n)=>this._s=n,
+      // presentes (catálogo)
+      gifts: this.gifts.map(g=>({ nome:g.n, desc:g.d, valor:g.v, valorFmt:this.brl(g.v), open:()=>this.openGift(g) })),
+      // galeria pública
+      photos: st.photos,
+      hasPhotos: st.photos.length>0,
+      noPhotos: st.photos.length===0,
+      galleryItems: st.photos.map((p,i)=>({ bg:'url("'+p+'")', idx:i })),
+      heroFramedBg: 'url("'+this.resAsset('frame-photo','assets/frame-photo.jpeg')+'")',
+      heroHasPhoto: true,
+      heroNoPhoto: false,
+      adminPhotos: st.photos.map((p,i)=>({ bg:'url("'+p+'")', idx:i })),
+      openLight:(e)=>this.openLight(e),
+      // modal presente
+      giftModal: gm,
+      giftModalNome: gm ? gm.n : '',
+      giftModalDesc: gm ? gm.d : '',
+      giftDone: st.giftDone,
+      giftFormOpen: !!gm && !st.giftDone,
+      giftName: st.giftName,
+      giftAmount: st.giftAmount,
+      giftAmountFmt: this.brl(st.giftAmount),
+      onGiftName:(e)=>this.setState({giftName:e.target.value}),
+      onGiftAmount:(e)=>this.setState({giftAmount:e.target.value}),
+      setQr:(n)=>{ this._qrNode=n; },
+      copyPix:()=>this.copyPix(),
+      copyLabel: st.copied ? 'Copiado!' : 'Copiar chave',
+      confirmGift:()=>this.confirmGift(),
+      closeGift:()=>this.closeGift(),
+      stop:(e)=>e.stopPropagation(),
+      // lightbox
+      lightboxOpen: st.lightbox!=null,
+      lightboxSrc: st.lightbox!=null ? st.photos[st.lightbox] : '',
+      lightboxBg: st.lightbox!=null ? 'url("'+st.photos[st.lightbox]+'")' : 'none',
+      closeLight:()=>this.closeLight(),
+      prevLight:(e)=>this.prevLight(e),
+      nextLight:(e)=>this.nextLight(e),
+      // RSVP
+      rsvpDone: st.rsvpDone,
+      rsvpOpen: !st.rsvpDone,
+      rf_nome:st.rf_nome, rf_tel:st.rf_tel, rf_recado:st.rf_recado,
+      onRfNome:(e)=>this.setState({rf_nome:e.target.value}),
+      onRfTel:(e)=>this.setState({rf_tel:e.target.value}),
+      onRfRecado:(e)=>this.setState({rf_recado:e.target.value}),
+      submitRsvp:(e)=>this.submitRsvp(e),
+      // ---- admin ----
+      adminLocked: !st.adminAuth,
+      adminAuth: st.adminAuth,
+      adminPassInput: st.adminPassInput,
+      adminError: st.adminError,
+      onPass:(e)=>this.setState({adminPassInput:e.target.value, adminError:false}),
+      doLogin:(e)=>this.doLogin(e),
+      // tabs
+      tabRsvp:()=>this.setState({adminTab:'rsvp'}),
+      tabGifts:()=>this.setState({adminTab:'gifts'}),
+      tabPhotos:()=>this.setState({adminTab:'photos'}),
+      tabRsvpColor:tabColor('rsvp'), tabRsvpBorder:tabBorder('rsvp'),
+      tabGiftsColor:tabColor('gifts'), tabGiftsBorder:tabBorder('gifts'),
+      tabPhotosColor:tabColor('photos'), tabPhotosBorder:tabBorder('photos'),
+      showRsvpTab: st.adminTab==='rsvp',
+      showGiftTab: st.adminTab==='gifts',
+      showPhotoTab: st.adminTab==='photos',
+      // dados admin
+      rsvps: st.rsvps,
+      rsvpCount: st.rsvps.length,
+      noRsvps: st.rsvps.length===0,
+      giftLog: st.giftLog.map(g=>({ nome:g.nome, presente:g.presente, valorFmt:this.brl(g.valor), data:g.data })),
+      giftCount: st.giftLog.length,
+      noGifts: st.giftLog.length===0,
+      totalFmt: this.brl(total),
+      photoCount: st.photos.length,
+      noPhotosAdmin: st.photos.length===0,
+      removePhoto:(e)=>this.removePhoto(e),
+      exportRsvp:()=>this.exportRsvp(),
+      exportGifts:()=>this.exportGifts(),
+      // upload
+      onDrop:(e)=>{ e.preventDefault(); this.setState({dragOver:false}); this.handleFiles(e.dataTransfer.files); },
+      onDragOver:(e)=>{ e.preventDefault(); if(!st.dragOver) this.setState({dragOver:true}); },
+      onDragLeave:(e)=>{ e.preventDefault(); this.setState({dragOver:false}); },
+      onPick:(e)=>this.handleFiles(e.target.files),
+      dropBorder: st.dragOver ? '#605E39' : '#AFAD79',
+      dropBg: st.dragOver ? 'rgba(141,139,85,.16)' : 'rgba(255,255,255,.5)'
+    };
+  }
+}
+</script>
+</body>
+</html>
